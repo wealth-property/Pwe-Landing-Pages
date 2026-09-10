@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Wealth Gap Session | Property Wealth Engineering™</title>
+<meta name="description" content="Calculate your personal Wealth Gap and Retirement Income Gap in a free 90-minute live session with Sylvia Milosevic. multiple live dates on Zoom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --d1:#F7F5F2;--d2:#FFFFFF;--d3:#EDEAE5;--d4:#232320;
+  --teal:#1D9E75;--teal-h:#177d5c;--teal-dim:rgba(29,158,117,.08);
+  --teal-bd:rgba(29,158,117,.25);
+  --w:#232320;--g1:#3A3835;--g2:#6B6963;--g3:#8E8C87;
+  --bd:rgba(35,35,32,.12);
+  --wa:#25D366;--wa-h:#1DAF56;
+  --red-dim:rgba(180,60,40,.08);--red-bd:rgba(180,60,40,.28);--red-txt:#B03A2A;
+  --fs:'Cormorant Garamond',Georgia,serif;
+  --fn:'Inter',-apple-system,sans-serif;
+  --ph:clamp(20px,4vw,60px);--mw:1200px;
+}
+/* Dark accent bands (topbar / footer / mobile bar) keep light text regardless of the light theme above */
+.topbar,footer,.mob-bar,.countdown-banner{--w:#F7F5F2;--g1:#EDEAE5;--g2:#C8C6C0;--g3:#9C9A94;--bd:rgba(247,245,242,.14)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--d1);color:var(--g1);font-family:var(--fn);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+
+/* ── TOPBAR ── */
+.topbar{background:var(--d4);padding:10px var(--ph);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--bd)}
+.tl{font-family:var(--fn);font-weight:700;font-size:13px;letter-spacing:.1em;color:var(--w);text-transform:uppercase}
+.tl span{color:var(--teal)}
+.tr{font-family:var(--fs);font-size:13px;font-style:italic;color:var(--g3)}
+
+/* ── COUNTDOWN BANNER ── */
+.countdown-banner{background:var(--teal);padding:10px var(--ph)}
+.cb-inner{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
+.cb-label{font-size:12px;font-weight:600;color:rgba(255,255,255,.85);letter-spacing:.04em}
+.cb-label strong{color:var(--w)}
+.timer-wrap{display:flex;align-items:center;gap:6px}
+.t-block{display:flex;flex-direction:column;align-items:center;background:rgba(0,0,0,.18);padding:5px 10px;min-width:44px}
+.t-num{font-family:var(--fs);font-weight:700;font-size:22px;color:var(--w);line-height:1;font-variant-numeric:tabular-nums}
+.t-lbl{font-size:9px;font-weight:600;letter-spacing:.1em;color:rgba(255,255,255,.65);text-transform:uppercase;margin-top:2px}
+.t-sep{font-family:var(--fs);font-size:22px;color:rgba(255,255,255,.5);font-weight:700;line-height:1;margin-bottom:14px}
+.cb-sess{font-size:12px;color:rgba(255,255,255,.75);font-style:italic;font-family:var(--fs)}
+
+/* ── HERO ── */
+.hero{background-color:var(--d1);
+  background-image:linear-gradient(rgba(29,158,117,.034) 1px,transparent 1px),linear-gradient(90deg,rgba(29,158,117,.034) 1px,transparent 1px);
+  background-size:70px 70px;
+  padding:0 var(--ph) 60px}
+.hero-grid{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:300px 1fr 420px;gap:48px;align-items:start}
+
+/* ── SYLVIA PHOTO COL ── */
+.sylvia-photo-col{position:sticky;top:0;align-self:start}
+.syl-img-wrap{position:relative;height:100vh;max-height:640px;overflow:hidden;
+  background:linear-gradient(180deg,var(--d3) 0%,var(--d2) 100%)}
+.syl-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:78% 18%;display:block}
+.syl-img-placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px;text-align:center}
+.syl-ph-icon{width:80px;height:80px;border-radius:50%;border:2px dashed var(--teal-bd);display:flex;align-items:center;justify-content:center;margin:0 auto}
+.syl-ph-icon svg{width:36px;height:36px;fill:none;stroke:var(--g3);stroke-width:1.5}
+.syl-ph-note{font-size:11px;color:var(--g3);line-height:1.5;max-width:200px}
+.syl-ph-note strong{color:var(--g2);display:block;margin-bottom:4px}
+.syl-nameplate{position:absolute;bottom:0;left:0;right:0;padding:20px 20px 20px;
+  background:linear-gradient(transparent,rgba(23,23,21,.95));
+  border-top:1px solid var(--teal-bd)}
+.syl-np-name{font-family:var(--fs);font-weight:600;font-size:20px;color:var(--w);line-height:1.1}
+.syl-np-role{font-size:11px;color:var(--teal);font-weight:600;letter-spacing:.06em;margin-top:4px;text-transform:uppercase}
+
+/* ── HERO COPY COL ── */
+.hero-copy{padding-top:44px}
+.h-live{display:inline-flex;align-items:center;gap:8px;background:rgba(29,158,117,.1);border:1px solid var(--teal-bd);padding:6px 13px;margin-bottom:24px}
+.h-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.h-live-txt{font-size:11px;font-weight:700;letter-spacing:.13em;color:var(--teal);text-transform:uppercase}
+.hero-tag{font-size:11px;font-weight:600;letter-spacing:.17em;color:var(--teal);text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.hero-tag::before{content:'';width:20px;height:1px;background:var(--teal)}
+h1.hh{font-family:var(--fs);font-weight:600;font-size:clamp(36px,4.5vw,60px);line-height:1.06;color:var(--w);max-width:16ch;margin-bottom:18px;letter-spacing:-.01em}
+h1.hh em{color:var(--teal);font-style:italic}
+.hero-sub{font-size:clamp(14px,1.5vw,17px);line-height:1.68;color:var(--g2);max-width:460px;margin-bottom:10px}
+.hero-for{font-size:13px;font-style:italic;color:var(--g3);font-family:var(--fs);margin-bottom:28px}
+.hero-learns{display:flex;flex-direction:column;gap:10px;margin-bottom:28px}
+.hl{display:flex;gap:12px;align-items:flex-start}
+.hl-ck{width:19px;height:19px;border-radius:50%;background:var(--teal);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.hl-ck svg{width:9px;height:9px;fill:none;stroke:#fff;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.hl-t{font-size:14px;color:var(--g1);line-height:1.5}
+.hl-t strong{color:var(--w);font-weight:600}
+.h-proof{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--bd);border-left:3px solid var(--teal)}
+.hpi{padding:12px 14px;text-align:center;border-right:1px solid var(--bd)}
+.hpi:last-child{border-right:none}
+.hpi-n{font-family:var(--fs);font-weight:700;font-size:20px;color:var(--w);line-height:1}
+.hpi-l{font-size:10px;color:var(--g3);margin-top:3px;line-height:1.35}
+
+/* ── FORM CARD COL ── */
+.form-wrap{position:sticky;top:16px;padding-top:24px}
+.form-card{background:var(--d2);border:1px solid var(--bd);border-top:3px solid var(--teal);padding:28px 24px}
+
+/* mini timer in form */
+.form-timer{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:rgba(29,158,117,.08);border:1px solid var(--teal-bd);margin-bottom:16px}
+.ft-label{font-size:11px;font-weight:600;color:var(--g2);letter-spacing:.04em}
+.ft-count{font-family:var(--fs);font-weight:700;font-size:18px;color:var(--teal);letter-spacing:.02em;font-variant-numeric:tabular-nums}
+
+.fc-eyebrow{font-size:10px;font-weight:600;letter-spacing:.15em;color:var(--teal);text-transform:uppercase;text-align:center;margin-bottom:7px}
+.fc-title{font-family:var(--fs);font-weight:600;font-size:22px;color:var(--w);text-align:center;line-height:1.15;margin-bottom:5px}
+.fc-sub{font-size:12px;color:var(--g2);text-align:center;margin-bottom:16px}
+.sess-lbl{font-size:10px;font-weight:600;letter-spacing:.13em;color:var(--g2);text-transform:uppercase;margin-bottom:9px}
+.sessions{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.s-opt{position:relative}
+.s-opt input[type=radio]{position:absolute;opacity:0;width:0;height:0}
+.s-btn{display:flex;align-items:center;justify-content:space-between;padding:11px 13px;border:1px solid var(--bd);cursor:pointer;transition:all .17s;background:rgba(255,255,255,.02)}
+.s-btn:hover{border-color:var(--teal-bd);background:var(--teal-dim)}
+.s-opt input:checked + .s-btn{border-color:var(--teal);background:rgba(29,158,117,.1)}
+.s-day{font-weight:600;font-size:12px;color:var(--w)}
+.s-time{font-size:11px;color:var(--g2);margin-top:1px}
+.s-avail{font-size:10px;font-weight:600;color:var(--teal);letter-spacing:.04em}
+.s-radio{width:13px;height:13px;border-radius:50%;border:2px solid var(--g3);flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all .17s}
+.s-opt input:checked + .s-btn .s-radio{border-color:var(--teal);background:var(--teal)}
+.s-opt input:checked + .s-btn .s-radio::after{content:'';width:5px;height:5px;border-radius:50%;background:#fff}
+.fields{display:flex;flex-direction:column;gap:9px;margin-bottom:12px}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:10px;font-weight:600;letter-spacing:.11em;color:var(--g2);text-transform:uppercase}
+.field input,.field select{background:rgba(255,255,255,.05);border:1px solid var(--bd);color:var(--w);font-family:var(--fn);font-size:13px;padding:10px 12px;outline:none;transition:border-color .17s;-webkit-appearance:none;border-radius:0;width:100%}
+.field input::placeholder{color:var(--g3)}
+.field input:focus,.field select:focus{border-color:var(--teal)}
+.field select option{background:var(--d2)}
+.f-submit{width:100%;background:var(--teal);color:var(--w);font-family:var(--fn);font-size:13px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:14px;border:none;cursor:pointer;transition:background .2s,transform .15s;border-radius:0;margin-bottom:8px}
+.f-submit:hover{background:var(--teal-h);transform:translateY(-1px)}
+
+/* WhatsApp button */
+.wa-divider{display:flex;align-items:center;gap:10px;margin:4px 0 8px}
+.wa-divider::before,.wa-divider::after{content:'';flex:1;height:1px;background:var(--bd)}
+.wa-divider span{font-size:10px;color:var(--g3);white-space:nowrap;letter-spacing:.05em}
+.wa-btn{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:13px;background:transparent;border:1px solid rgba(37,211,102,.3);color:var(--wa);font-family:var(--fn);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:all .2s;text-decoration:none}
+.wa-btn:hover{background:rgba(37,211,102,.1);border-color:var(--wa)}
+.wa-btn svg{width:16px;height:16px;flex-shrink:0}
+
+.f-legal{font-size:10px;color:var(--g3);text-align:center;margin-top:9px;line-height:1.5}
+.f-legal a{color:var(--g2);text-decoration:underline}
+
+/* success state */
+.form-success{display:none;text-align:center;padding:16px 4px}
+.suc-icon{width:48px;height:48px;border-radius:50%;background:var(--teal);margin:0 auto 12px;display:flex;align-items:center;justify-content:center}
+.suc-icon svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.suc-h{font-family:var(--fs);font-weight:600;font-size:21px;color:var(--w);margin-bottom:7px}
+.suc-p{font-size:13px;color:var(--g2);line-height:1.6}
+.suc-sess{margin-top:12px;padding:11px 14px;background:var(--teal-dim);border:1px solid var(--teal-bd);font-size:12px;color:var(--teal);font-weight:600}
+.suc-wa{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:12px;background:rgba(37,211,102,.08);border:1px solid rgba(37,211,102,.25);font-size:12px;color:var(--wa);font-weight:600}
+
+/* ── SHARED ── */
+.sec{padding:76px var(--ph)}
+.si{max-width:var(--mw);margin:0 auto}
+.sec-tag{font-size:11px;font-weight:600;letter-spacing:.17em;color:var(--teal);text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:9px}
+.sec-tag::before{content:'';width:20px;height:1px;background:var(--teal)}
+.sec-tag.ctr{justify-content:center}.sec-tag.ctr::before{display:none}
+.sec-h2{font-family:var(--fs);font-weight:600;font-size:clamp(28px,3.8vw,48px);line-height:1.1;color:var(--w);letter-spacing:-.01em}
+.sec-body{font-size:16px;line-height:1.72;color:var(--g2);max-width:520px;margin-top:14px}
+.btn-p{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:var(--w);font-size:13px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:15px 32px;border-radius:2px;transition:background .2s,transform .15s}
+.btn-p:hover{background:var(--teal-h);transform:translateY(-2px)}
+
+/* ── PROBLEM ── */
+.problem{background:var(--d2)}
+.prob-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.prob-list{list-style:none;display:flex;flex-direction:column;gap:11px;margin-top:24px}
+.prob-list li{display:flex;align-items:center;gap:11px;font-size:15px;color:var(--g1)}
+.prob-list li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--teal);flex-shrink:0}
+.prob-yet{margin-top:0;padding:22px;background:var(--teal-dim);border:1px solid var(--bd);border-left:2px solid var(--teal-bd)}
+.prob-q{font-family:var(--fs);font-size:clamp(17px,2vw,22px);font-style:italic;color:var(--w);line-height:1.4;margin-bottom:14px}
+.prob-body{font-size:15px;line-height:1.7;color:var(--g2)}
+.gap-name{display:inline-block;margin-top:18px;padding:8px 16px;background:var(--d1);border:1px solid var(--teal-bd);font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--teal);text-transform:uppercase}
+.gap-def{margin-top:14px;font-size:15px;line-height:1.68;color:var(--g1)}
+
+/* ── BEFORE / AFTER ── */
+.ba{background:var(--d3)}
+.ba-grid{display:grid;grid-template-columns:1fr 48px 1fr;margin-top:44px;background:var(--bd)}
+.ba-col{background:var(--d2);padding:32px 28px}
+.ba-col.after{background:var(--d1)}
+.ba-head{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;margin-bottom:20px;display:inline-block}
+.ba-head.bef{background:rgba(35,35,32,.05);color:var(--g2)}
+.ba-head.aft{background:var(--teal-dim);color:var(--teal);border:1px solid var(--teal-bd)}
+.ba-items{display:flex;flex-direction:column;gap:12px}
+.ba-item{font-size:14px;line-height:1.55;padding-left:14px;border-left:1px solid var(--bd)}
+.ba-item.bef{color:var(--g2);font-style:italic}
+.ba-item.aft{color:var(--g1);border-left-color:var(--teal)}
+.ba-item.aft strong{color:var(--w);font-weight:600}
+.ba-mid{background:var(--d3);display:flex;align-items:center;justify-content:center}
+.ba-arr{font-family:var(--fs);font-size:24px;color:var(--teal)}
+
+/* ── DIAGNOSTIC ── */
+.diag{background:var(--d1)}
+.diag-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:48px;background:var(--bd)}
+.dc{background:var(--d2);padding:36px 28px;position:relative;overflow:hidden}
+.dc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--teal)}
+.dc-bg{font-family:var(--fs);font-weight:700;font-size:80px;color:var(--teal);opacity:.07;line-height:1;position:absolute;top:8px;right:16px;pointer-events:none}
+.dc-step{font-size:10px;font-weight:600;letter-spacing:.15em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}
+.dc-title{font-family:var(--fs);font-weight:600;font-size:clamp(18px,2vw,24px);color:var(--w);line-height:1.2;margin-bottom:10px}
+.dc-body{font-size:14px;line-height:1.68;color:var(--g2)}
+.dc-out{margin-top:14px;padding:10px 12px;background:var(--d1);border:1px solid var(--teal-bd);font-size:11px;color:var(--teal);font-weight:600}
+.dc-out::before{content:'Output → ';color:var(--g3)}
+
+/* ── EXAMPLE ── */
+.example{background:var(--d2)}
+.eg-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;margin-top:40px}
+.eg-calc{background:var(--d1);border:1px solid var(--bd);border-top:3px solid var(--teal);padding:32px 28px}
+.eg-calc-t{font-size:10px;font-weight:600;letter-spacing:.13em;color:var(--teal);text-transform:uppercase;margin-bottom:20px}
+.eg-rows{display:flex;flex-direction:column}
+.eg-row{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--bd)}
+.eg-row:last-child{border-bottom:none}
+.eg-lbl{font-size:13px;color:var(--g2)}
+.eg-val{font-size:13px;font-weight:600;color:var(--w)}
+.eg-gap{margin-top:14px;padding:18px 20px;background:var(--d3);border:1px solid var(--bd);border-left:4px solid var(--teal)}
+.eg-gap-l{font-size:10px;font-weight:600;letter-spacing:.13em;color:var(--teal);text-transform:uppercase;margin-bottom:5px}
+.eg-gap-n{font-family:var(--fs);font-weight:700;font-size:32px;color:var(--w);line-height:1}
+.eg-gap-s{font-size:12px;color:var(--g2);margin-top:3px}
+.eg-q{font-family:var(--fs);font-size:clamp(18px,2.2vw,26px);font-style:italic;color:var(--g1);line-height:1.4;margin-bottom:18px;padding-left:18px;border-left:2px solid var(--teal)}
+.eg-shift{font-size:15px;line-height:1.7;color:var(--g2);margin-bottom:14px}
+.eg-new-q{font-family:var(--fs);font-size:clamp(16px,2vw,22px);font-style:italic;color:var(--w);line-height:1.4}
+
+/* ── AGENDA ── */
+.agenda{background:var(--d3)}
+.ag-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:44px;background:var(--bd)}
+.ag-c{background:var(--d1);padding:28px 22px}
+.ag-min{font-family:var(--fs);font-weight:700;font-size:30px;color:var(--teal);opacity:.4;line-height:1;margin-bottom:12px}
+.ag-t{font-family:var(--fs);font-weight:600;font-size:17px;color:var(--w);margin-bottom:9px;line-height:1.25}
+.ag-b{font-size:13px;line-height:1.65;color:var(--g2)}
+
+/* ── WHO FOR ── */
+.who{background:var(--d1)}
+.who-top{font-size:13px;font-weight:500;color:var(--g1);background:rgba(35,35,32,.04);border:1px solid var(--bd);padding:13px 18px;margin:20px 0 24px;text-align:center}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--bd)}
+.wc{background:var(--d2);padding:24px 22px;display:flex;gap:13px}
+.wc-icon{width:30px;height:30px;background:var(--teal-dim);border:1px solid var(--teal-bd);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.wc-icon svg{width:13px;height:13px;fill:none;stroke:var(--teal);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.wc-t{font-family:var(--fs);font-weight:600;font-size:16px;color:var(--w);margin-bottom:5px;line-height:1.3}
+.wc-b{font-size:13px;line-height:1.65;color:var(--g2)}
+
+/* ── WHO NOT ── */
+.not{background:var(--d2)}
+.not-top{font-size:13px;font-weight:500;color:var(--red-txt);background:var(--red-dim);border:1px solid var(--red-bd);padding:13px 18px;margin:20px 0 20px;text-align:center}
+.not-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.ni{padding:16px 18px;background:rgba(180,60,40,.04);border:1px solid var(--bd);border-left:2px solid var(--red-bd);display:flex;gap:10px;align-items:flex-start}
+.ni-x{color:var(--red-txt);font-size:14px;flex-shrink:0;font-weight:700;margin-top:1px}
+.ni-t{font-size:13px;color:var(--g2);line-height:1.5}
+
+/* ── COST OF DELAY ── */
+.delay{background:var(--d3)}
+.delay-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.cost-rows{display:flex;flex-direction:column;gap:8px;margin-top:24px}
+.cr{display:flex;gap:12px;align-items:flex-start;padding:13px 15px;background:rgba(35,35,32,.03);border:1px solid var(--bd)}
+.cr-yr{font-family:var(--fs);font-weight:700;font-size:20px;color:var(--teal);min-width:64px;flex-shrink:0}
+.cr-t{font-size:13px;color:var(--g2);line-height:1.5}
+.cr-t strong{color:var(--g1);font-weight:600}
+.cr-note{margin-top:10px;font-size:12px;color:var(--g3);font-style:italic;font-family:var(--fs)}
+.delay-right .dq{font-family:var(--fs);font-size:clamp(19px,2.3vw,26px);font-style:italic;color:var(--w);line-height:1.4;margin-bottom:18px}
+.delay-right .db{font-size:15px;line-height:1.72;color:var(--g2);margin-bottom:14px}
+
+/* ── SYLVIA SECTION ── */
+.sylvia-sec{background:var(--d2)}
+.syl-grid{display:grid;grid-template-columns:240px 1fr;gap:52px;align-items:start}
+.syl-ph{aspect-ratio:3/4;background:var(--d3);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;color:var(--g3);font-size:11px;text-transform:uppercase;letter-spacing:.05em;position:relative;overflow:hidden}
+.syl-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:78% 18%}
+.syl-tag{font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-bottom:7px}
+.syl-name{font-family:var(--fs);font-weight:600;font-size:clamp(28px,3.2vw,40px);color:var(--w);line-height:1.1;margin-bottom:4px}
+.syl-role{font-size:13px;color:var(--g2);font-style:italic;margin-bottom:20px}
+.syl-bio{font-size:15px;line-height:1.75;color:var(--g2);margin-bottom:16px}
+.syl-creds{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
+.syl-creds li{font-size:13px;color:var(--g3);display:flex;align-items:center;gap:10px}
+.syl-creds li::before{content:'';width:15px;height:1px;background:var(--teal);flex-shrink:0}
+.syl-q{font-family:var(--fs);font-size:clamp(15px,1.8vw,20px);font-style:italic;color:var(--g1);line-height:1.5;padding-left:18px;border-left:2px solid var(--teal)}
+
+/* ── PROOF ── */
+.proof-sec{background:var(--d1)}
+.pdisc{font-size:12px;font-style:italic;color:var(--g3);font-family:var(--fs);margin-top:8px}
+.proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:36px;background:var(--bd)}
+.pc{background:var(--d2);padding:32px 26px}
+.pc-head{font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--g3);margin-bottom:16px}
+.pr-rows{display:flex;flex-direction:column}
+.pr-row{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--bd)}
+.pr-row:last-child{border-bottom:none}
+.pr-c{padding:10px 0;font-size:13px;line-height:1.5}
+.pr-c.lbl{color:var(--g3);font-weight:500;padding-right:14px}
+.pr-c.bef{color:var(--g2);font-style:italic}
+.pr-c.aft{color:var(--g1)}
+.pr-c.aft strong{color:var(--teal);font-weight:600}
+.pr-note{margin-top:14px;font-size:12px;color:var(--g3);font-style:italic;line-height:1.5;font-family:var(--fs)}
+
+/* ── WHY FREE ── */
+.free{background:var(--d3)}
+.free-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.free-q{font-family:var(--fs);font-size:clamp(20px,2.6vw,32px);font-style:italic;color:var(--w);line-height:1.35;padding-left:22px;border-left:3px solid var(--teal);margin-bottom:20px}
+.free-b{font-size:15px;line-height:1.72;color:var(--g2)}
+.free-box{padding:36px;background:var(--d1);border:1px solid var(--bd)}
+.free-box-t{font-family:var(--fs);font-weight:600;font-size:20px;color:var(--w);margin-bottom:16px}
+.free-pts{list-style:none;display:flex;flex-direction:column;gap:11px}
+.free-pts li{font-size:14px;color:var(--g1);display:flex;gap:9px;line-height:1.5}
+.free-pts li::before{content:'→';color:var(--teal);flex-shrink:0}
+
+/* ── FAQ ── */
+.faq{background:var(--d2);padding:68px var(--ph)}
+.faq-inner{max-width:740px;margin:0 auto}
+.faq-list{border-top:1px solid var(--bd);margin-top:32px}
+.faq-item{border-bottom:1px solid var(--bd)}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:19px 0;cursor:pointer;font-size:14px;font-weight:500;color:var(--g1);transition:color .2s;user-select:none;line-height:1.45}
+.faq-q:hover,.faq-item.open .faq-q{color:var(--w)}
+.faq-ic{width:20px;height:20px;border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;color:var(--g3);font-size:15px;line-height:1;flex-shrink:0;transition:all .22s}
+.faq-item.open .faq-ic{border-color:var(--teal);color:var(--teal);transform:rotate(45deg)}
+.faq-ans{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq-item.open .faq-ans{max-height:400px}
+.faq-ai{padding-bottom:20px;font-size:14px;line-height:1.72;color:var(--g2)}
+
+/* ── FINAL CTA ── */
+.fcta{background:var(--d1);padding:92px var(--ph);text-align:center;
+  background-image:linear-gradient(rgba(29,158,117,.034) 1px,transparent 1px),linear-gradient(90deg,rgba(29,158,117,.034) 1px,transparent 1px);
+  background-size:70px 70px}
+.fcta-in{max-width:620px;margin:0 auto}
+.fcta-h{font-family:var(--fs);font-weight:600;font-size:clamp(32px,4.5vw,58px);color:var(--w);line-height:1.08;margin-bottom:14px;letter-spacing:-.01em}
+.fcta-s{font-size:16px;line-height:1.7;color:var(--g2);margin-bottom:28px}
+.fcta-pills{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.pill{padding:8px 16px;border:1px solid var(--teal-bd);background:var(--teal-dim);font-size:12px;color:var(--teal);font-weight:600}
+.fcta-wa{display:inline-flex;align-items:center;gap:8px;margin-left:12px;padding:15px 28px;background:transparent;border:1px solid rgba(37,211,102,.35);color:var(--wa);font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:all .2s;vertical-align:middle}
+.fcta-wa:hover{background:rgba(37,211,102,.1);border-color:var(--wa)}
+.fcta-note{margin-top:20px;font-family:var(--fs);font-size:13px;font-style:italic;color:var(--g3)}
+.cta-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px}
+
+/* ── FOOTER ── */
+footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd)}
+.fi-inner{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.fl{font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--w)}
+.fl span{color:var(--teal)}
+.ft{font-family:var(--fs);font-size:12px;font-style:italic;color:var(--g3)}
+.flg{font-size:11px;color:var(--g3);max-width:420px;line-height:1.5;text-align:right}
+
+/* ── STICKY MOBILE BAR ── */
+.mob-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  display:none;background:var(--d4);border-top:1px solid var(--bd);padding:10px var(--ph)}
+.mob-bar-inner{display:flex;gap:8px}
+.mob-bar .btn-p{flex:1;justify-content:center;padding:12px;font-size:12px}
+.mob-bar .wa-btn{flex:0 0 auto;padding:12px 14px;border:1px solid rgba(37,211,102,.3)}
+
+/* ── ANIMATIONS ── */
+.fi{opacity:0;transform:translateY(11px);transition:opacity .5s ease,transform .5s ease}
+.fi.vis{opacity:1;transform:translateY(0)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .hero-grid{grid-template-columns:1fr 400px;gap:36px}
+  .sylvia-photo-col{display:none}
+  .hero-copy{padding-top:36px}
+  .prob-grid,.eg-grid,.delay-grid,.syl-grid,.free-grid{grid-template-columns:1fr;gap:32px}
+  .syl-ph{aspect-ratio:16/9;max-width:340px}
+  .tr{display:none}
+}
+@media(max-width:800px){
+  .hero-grid{grid-template-columns:1fr;gap:36px}
+  .form-wrap{position:static}
+  /* Show photo above headline on mobile */
+  .sylvia-photo-col{display:block;position:static}
+  .syl-img-wrap{height:260px;max-height:260px}
+  .hero-grid{grid-template-areas:'photo' 'copy' 'form'}
+  .sylvia-photo-col{grid-area:photo}
+  .hero-copy{grid-area:copy;padding-top:0}
+  .form-wrap{grid-area:form}
+  .ba-grid{grid-template-columns:1fr}
+  .ba-mid{display:none}
+  .diag-grid,.ag-grid,.who-grid,.not-grid,.proof-grid{grid-template-columns:1fr}
+  .h-proof{grid-template-columns:1fr 1fr}
+  .fcta-wa{margin-left:0}
+  .foot-inner,.fi-inner{flex-direction:column;align-items:flex-start}
+  .flg{text-align:left;max-width:100%}
+  .mob-bar{display:block}
+  body{padding-bottom:64px}
+  .fcta-pills{flex-direction:column;align-items:center}
+  .field-row{grid-template-columns:1fr}
+  .cb-inner{gap:10px}
+}
+@media(max-width:500px){
+  .h-proof{grid-template-columns:1fr 1fr}
+  .t-block{padding:4px 8px;min-width:36px}
+  .t-num{font-size:18px}
+}
+@media(prefers-reduced-motion:reduce){
+  .fi{opacity:1;transform:none;transition:none}
+  *{transition-duration:.01ms!important}
+  .h-dot{animation:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ── TOPBAR ── -->
+<div class="topbar">
+  <div class="tl">PWE<span>™</span></div>
+  <div class="tr">Clarity Before Capital. Structure Before Scale.™</div>
+</div>
+
+<!-- ── COUNTDOWN BANNER ── -->
+<div class="countdown-banner">
+  <div class="cb-inner">
+    <div class="cb-label">🟢 &nbsp;<strong>Next session</strong> — <span class="timer-sess-name">Loading…</span></div>
+    <div class="timer-wrap">
+      <div class="t-block"><div class="t-num" id="t-d">00</div><div class="t-lbl">Days</div></div>
+      <div class="t-sep">:</div>
+      <div class="t-block"><div class="t-num" id="t-h">00</div><div class="t-lbl">Hrs</div></div>
+      <div class="t-sep">:</div>
+      <div class="t-block"><div class="t-num" id="t-m">00</div><div class="t-lbl">Min</div></div>
+      <div class="t-sep">:</div>
+      <div class="t-block"><div class="t-num" id="t-s">00</div><div class="t-lbl">Sec</div></div>
+    </div>
+    <div class="cb-sess">Seats limited per session</div>
+  </div>
+</div>
+
+<!-- ════════════════ HERO ════════════════ -->
+<section class="hero">
+  <div class="hero-grid">
+
+    <!-- SYLVIA PHOTO COL -->
+    <div class="sylvia-photo-col">
+      <div class="syl-img-wrap">
+        <img src="sylvia-photo.png" alt="Sylvia Milosevic, Founder & Chief Capital Architect, Property Wealth Engineering">
+        <div class="syl-nameplate">
+          <div class="syl-np-name">Sylvia Milosevic</div>
+          <div class="syl-np-role">Founder & Chief Capital Architect™</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO COPY -->
+    <div class="hero-copy">
+      <div class="h-live fi"><div class="h-dot"></div><span class="h-live-txt">Free Live Webinar · 90 Minutes · Zoom</span></div>
+      <div class="hero-tag fi">Free · No obligation · Live Q&A</div>
+      <h1 class="hh fi">You May Own Property. But Is It Actually Building <em>Financial Independence?</em></h1>
+      <p class="hero-sub fi">In this free 90-minute live session, calculate the gap between what your current assets produce today and the income you want them to produce in the future — and discover what needs to change.</p>
+      <p class="hero-for fi">For professionals, executives, business owners and property investors who want clarity before their next capital decision.</p>
+      <div class="hero-learns">
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Income Replacement Rate</strong> — the one number that shows how your portfolio is actually performing right now.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Retirement Income Gap</strong> — calculated live with your numbers. The rands-per-month your portfolio still needs to produce.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>The PWE™ Wealth Gap Diagnostic</strong> — a four-step live calculation that gives you a number, not a feeling.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Architecture Question</strong> — whether current property, equity and capital decisions are moving you toward your target.</div></div>
+      </div>
+      <div class="h-proof fi">
+        <div class="hpi"><div class="hpi-n">22+</div><div class="hpi-l">Years in property wealth</div></div>
+        <div class="hpi"><div class="hpi-n">Author</div><div class="hpi-l">Winning the Property Game</div></div>
+        <div class="hpi"><div class="hpi-n">TV</div><div class="hpi-l">The Property Game · All About Property</div></div>
+        <div class="hpi"><div class="hpi-n">Free</div><div class="hpi-l">No cost. No obligation.</div></div>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-wrap">
+      <div class="form-card" id="formCard">
+        <!-- Mini countdown in form -->
+        <div class="form-timer">
+          <span class="ft-label">Next session in</span>
+          <span class="ft-count" id="ft-count">—</span>
+        </div>
+        <div id="formHead">
+          <div class="fc-eyebrow">Reserve Your Free Seat</div>
+          <div class="fc-title">Choose Your Session</div>
+          <div class="fc-sub">Zoom link sent instantly by email.</div>
+          <div class="sess-lbl" style="margin-top:14px">Available sessions</div>
+          <div class="sessions" id="sessionPicker">
+            <!-- Populated automatically by JS from the SESSIONS list below. Past dates drop off on their own — nothing to edit here by hand. -->
+          </div>
+        </div>
+
+        <form id="regForm" novalidate>
+          <div class="fields">
+            <div class="field-row">
+              <div class="field"><label for="fn">First Name</label><input type="text" id="fn" placeholder="Thabo" required></div>
+              <div class="field"><label for="ln">Last Name</label><input type="text" id="ln" placeholder="Mokoena" required></div>
+            </div>
+            <div class="field"><label for="em">Email Address</label><input type="email" id="em" placeholder="you@domain.com" required></div>
+            <div class="field"><label for="ph">Mobile Number</label><input type="tel" id="ph" placeholder="071 234 5678" required></div>
+            <div class="field">
+              <label for="props">Properties Currently Owned</label>
+              <select id="props">
+                <option value="">Select one</option>
+                <option value="0">None — planning my first</option>
+                <option value="1">1 property</option>
+                <option value="2-3">2–3 properties</option>
+                <option value="4+">4 or more</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="f-submit">Calculate My Wealth Gap — Free →</button>
+          <!-- WhatsApp alternative -->
+          <div class="wa-divider"><span>or register via</span></div>
+          <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="wa-btn" target="_blank" rel="noopener" id="waLink">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Register on WhatsApp
+          </a>
+          <div class="f-legal">By registering you agree to our <a href="#">privacy policy</a>. Zoom link sent within minutes. No spam, ever.</div>
+        </form>
+
+        <!-- Success state -->
+        <div class="form-success" id="formSuccess">
+          <div class="suc-icon"><svg viewBox="0 0 24 24"><polyline points="4,12 9,17 20,7"/></svg></div>
+          <div class="suc-h">You're registered.</div>
+          <div class="suc-p">Check your email for your Zoom link and calendar invite. We'll send a reminder the morning of your session.</div>
+          <div class="suc-sess" id="sessConfirm">Session confirmed</div>
+          <div class="suc-wa">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Add to WhatsApp reminders → <a href="https://wa.me/27XXXXXXXXXX?text=I%20registered%20for%20the%20PWE%20session%20and%20would%20like%20reminders" style="color:var(--wa);text-decoration:underline" target="_blank">Join reminder list</a>
+          </div>
+          <div style="margin-top:10px;font-size:11px;color:var(--g3)">Bring a pen or open spreadsheet — you'll calculate your own numbers live.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════ 2. PROBLEM ════════════ -->
+<section class="sec problem" id="problem">
+  <div class="si">
+    <div class="prob-grid">
+      <div>
+        <div class="sec-tag fi">The Hidden Problem</div>
+        <h2 class="sec-h2 fi">You can be financially successful — and still be building wealth without a plan.</h2>
+        <ul class="prob-list">
+          <li class="fi">You earn a strong professional income.</li>
+          <li class="fi">You own one or more investment properties.</li>
+          <li class="fi">You have substantial equity.</li>
+          <li class="fi">You contribute to retirement investments.</li>
+          <li class="fi">You have access to finance.</li>
+          <li class="fi">You may own a business or hold company structures.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="prob-yet fi">
+          <div class="prob-q">"Yet how much of my current lifestyle will all of this actually replace — when I stop working?"</div>
+          <div class="prob-body">Most successful professionals cannot answer that question with a specific number. Not because they have made poor decisions — but because each decision was made separately, without one architecture connecting them to a single income destination.</div>
+        </div>
+        <div class="gap-name fi">The Wealth Gap™</div>
+        <div class="gap-def fi">The Wealth Gap is the difference between the financial future you are building toward and what your current assets are actually positioned to produce. Most people feel it. Very few have calculated it.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 3. BEFORE / AFTER ════════════ -->
+<section class="sec ba" id="before-after">
+  <div class="si">
+    <div class="sec-tag ctr fi">The Transformation</div>
+    <h2 class="sec-h2 fi" style="text-align:center;max-width:100%">What changes in 90 minutes.</h2>
+    <div class="ba-grid">
+      <div class="ba-col">
+        <div class="ba-head bef">Before the session</div>
+        <div class="ba-items">
+          <div class="ba-item bef fi">"I own property, but I don't know whether I'm actually on track."</div>
+          <div class="ba-item bef fi">"I have equity, but I haven't made a clear decision about it."</div>
+          <div class="ba-item bef fi">"I know I need retirement income, but I've never calculated the gap."</div>
+          <div class="ba-item bef fi">"I'm considering another property, but I'm not sure what role it should play."</div>
+          <div class="ba-item bef fi">"My advisers work separately. Nobody has given me one complete picture."</div>
+        </div>
+      </div>
+      <div class="ba-mid"><div class="ba-arr">→</div></div>
+      <div class="ba-col after">
+        <div class="ba-head aft">After the session</div>
+        <div class="ba-items">
+          <div class="ba-item aft fi"><strong>You know your Income Replacement Rate</strong> — exactly what your portfolio replaces today.</div>
+          <div class="ba-item aft fi"><strong>You know your monthly Wealth Gap</strong> — the specific rands-per-month your portfolio still needs to produce.</div>
+          <div class="ba-item aft fi"><strong>You know how many acquisitions it would take</strong> to close that gap at a realistic pace.</div>
+          <div class="ba-item aft fi"><strong>You understand why your next property</strong> must serve a defined objective, not just be an opportunity.</div>
+          <div class="ba-item aft fi"><strong>You have a clear starting point</strong> for a coordinated wealth architecture.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 4. DIAGNOSTIC ════════════ -->
+<section class="sec diag" id="diagnostic">
+  <div class="si">
+    <div class="sec-tag fi">Proprietary Methodology</div>
+    <h2 class="sec-h2 fi">The PWE™ Wealth Gap Diagnostic</h2>
+    <p class="sec-body fi">During the session you work through a four-step live diagnostic with your own numbers. You leave with a specific calculated position — not a general understanding of property investment.</p>
+    <div class="diag-grid">
+      <div class="dc fi"><div class="dc-bg">01</div><div class="dc-step">Step 01</div><div class="dc-title">Your Income Replacement Rate™</div><div class="dc-body">How much of your current lifestyle your existing investment income could replace today — if your salary stopped. This single percentage reveals the real state of your portfolio more honestly than any property valuation.</div><div class="dc-out">A percentage figure specific to your current position</div></div>
+      <div class="dc fi"><div class="dc-bg">02</div><div class="dc-step">Step 02</div><div class="dc-title">Your Retirement Income Gap™</div><div class="dc-body">The monthly shortfall between what your assets currently produce and what you ultimately want them to produce — calculated using your actual retirement income target and your current net passive income.</div><div class="dc-out">A rands-per-month shortfall that is yours alone</div></div>
+      <div class="dc fi"><div class="dc-bg">03</div><div class="dc-step">Step 03</div><div class="dc-title">Your Portfolio Requirement</div><div class="dc-body">The number of well-structured cash-flowing acquisitions your portfolio would need to close that gap — and how many years it would take at your current rate of acquisition.</div><div class="dc-out">A specific number of acquisitions and a timeline</div></div>
+      <div class="dc fi"><div class="dc-bg">04</div><div class="dc-step">Step 04</div><div class="dc-title">Your Architecture Question</div><div class="dc-body">Whether your current property, equity and capital decisions are actually moving you toward your retirement income objective — or accumulating assets without a defined destination.</div><div class="dc-out">A clear position with the data to support it</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 5. EXAMPLE ════════════ -->
+<section class="sec example" id="example">
+  <div class="si">
+    <div class="sec-tag fi">A Simple Example</div>
+    <h2 class="sec-h2 fi">What the diagnostic looks like in practice.</h2>
+    <div class="eg-grid">
+      <div class="eg-calc fi">
+        <div class="eg-calc-t">Worked Example — Professional, Age 48</div>
+        <div class="eg-rows">
+          <div class="eg-row"><span class="eg-lbl">Monthly professional income</span><span class="eg-val">R90,000</span></div>
+          <div class="eg-row"><span class="eg-lbl">Target monthly retirement income</span><span class="eg-val">R70,000</span></div>
+          <div class="eg-row"><span class="eg-lbl">Current net monthly passive income</span><span class="eg-val">R14,000</span></div>
+          <div class="eg-row"><span class="eg-lbl">Income replacement rate</span><span class="eg-val" style="color:var(--teal)">15.6%</span></div>
+        </div>
+        <div class="eg-gap">
+          <div class="eg-gap-l">Retirement Income Gap</div>
+          <div class="eg-gap-n">R56,000 / month</div>
+          <div class="eg-gap-s">The passive income this portfolio still needs to produce</div>
+        </div>
+      </div>
+      <div class="fi">
+        <blockquote class="eg-q">"Should I buy another property?"</blockquote>
+        <div class="eg-shift">That question — the one most investors start with — becomes secondary once you have your diagnostic number.</div>
+        <div class="eg-new-q">"What must my portfolio produce — and what specific role must each future asset play in closing a R56,000-per-month gap?"</div>
+        <div style="margin-top:20px;font-size:14px;line-height:1.7;color:var(--g2)">That is the question the Wealth Gap Diagnostic answers. You calculate your own version of this number — live — in the 90-minute session.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 6. AGENDA ════════════ -->
+<section class="sec agenda" id="agenda">
+  <div class="si">
+    <div class="sec-tag ctr fi">The 90-Minute Session</div>
+    <h2 class="sec-h2 fi" style="text-align:center;max-width:100%">Exactly what happens in the room.</h2>
+    <div class="ag-grid">
+      <div class="ag-c fi"><div class="ag-min">0–20</div><div class="ag-t">The Wealth Gap Framework</div><div class="ag-b">Why intelligent professionals accumulate property without building financial independence. The two maps: how most investors invest versus how wealth is engineered.</div></div>
+      <div class="ag-c fi"><div class="ag-min">20–45</div><div class="ag-t">Steps 1 & 2 — Income Replacement Rate and Retirement Income Gap</div><div class="ag-b">You calculate both numbers live. Bring your current net rental, your professional income and your retirement income target. Four fields. Two numbers.</div></div>
+      <div class="ag-c fi"><div class="ag-min">45–70</div><div class="ag-t">Steps 3 & 4 — Portfolio Requirement and Architecture Question</div><div class="ag-b">How many acquisitions your gap requires. How long at your current rate. What a Blueprint-governed approach changes about the trajectory.</div></div>
+      <div class="ag-c fi"><div class="ag-min">70–90</div><div class="ag-t">The Next Step + Live Q&A</div><div class="ag-b">What the Private Wealth Intensive covers for those who want to go further. Sylvia takes live questions before close. You leave with your four numbers written down.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 7. WHO FOR ════════════ -->
+<section class="sec who" id="who">
+  <div class="si">
+    <div class="sec-tag fi">Who This Is For</div>
+    <h2 class="sec-h2 fi">Designed for people who are already serious about building wealth.</h2>
+    <div class="who-top fi">Most relevant if at least one of the following describes your situation.</div>
+    <div class="who-grid">
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M20 7H4a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><div><div class="wc-t">You earn well but cannot state what your portfolio will produce in retirement</div><div class="wc-b">Your salary is strong. Your properties look reasonable. But you have never calculated what percentage of your lifestyle your investments actually replace today.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div><div><div class="wc-t">You own property but are uncertain whether the portfolio is performing a defined role</div><div class="wc-b">You have made acquisition decisions, but those decisions were made individually — not against a single documented income destination.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></div><div><div class="wc-t">You have equity available but no framework for deciding how to deploy it</div><div class="wc-b">Capital is sitting. Borrowing capacity exists. Without a blueprint connecting those resources to an income target, no deployment feels clearly right.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div><div class="wc-t">You are considering your next acquisition but want to understand the numbers first</div><div class="wc-b">You want to know whether an acquisition serves an objective inside a wider architecture — or whether it is simply another opportunity that appeared.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div><div class="wc-t">You want your household to understand wealth architecture, not just inherit assets</div><div class="wc-b">You are thinking beyond the next transaction toward how financial decisions connect to a long-term outcome for your family.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg></div><div><div class="wc-t">You feel behind on retirement and want a number — not general reassurance</div><div class="wc-b">You want to calculate the gap precisely and understand what closing it would actually require — not be told to stay the course without a destination.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 8. WHO NOT ════════════ -->
+<section class="sec not" id="not-for">
+  <div class="si">
+    <div class="sec-tag fi">Equally Important</div>
+    <h2 class="sec-h2 fi">This session may not be for you.</h2>
+    <div class="not-top fi">We would rather be honest about this than have the wrong person in the room.</div>
+    <div class="not-grid">
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You are looking for quick-profit strategies or short-cut approaches to building wealth.</div></div>
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You want property tips without examining your own financial position and numbers.</div></div>
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You are not prepared to consider how your next property decision relates to a longer-term income objective.</div></div>
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You are seeking regulated financial, legal or tax advice. This session is educational in nature.</div></div>
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You are very early in your career with no current investment position and no near-term capacity to build one.</div></div>
+      <div class="ni fi"><div class="ni-x">✕</div><div class="ni-t">You are looking for someone to tell you what to buy — rather than help you understand what you are building.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 9. COST OF DELAY ════════════ -->
+<section class="sec delay" id="delay">
+  <div class="si">
+    <div class="delay-grid">
+      <div>
+        <div class="sec-tag fi">Why Now</div>
+        <h2 class="sec-h2 fi">Every property decision has an opportunity cost.</h2>
+        <div class="cost-rows">
+          <div class="cr fi"><div class="cr-yr">Year 1</div><div class="cr-t">One year of equity without a deployment decision is one year of <strong>R42,000 in potential passive income</strong> that did not arrive.</div></div>
+          <div class="cr fi"><div class="cr-yr">Year 3</div><div class="cr-t">Three years without a blueprint is <strong>R126,000 in cumulative passive income</strong> the portfolio was not positioned to produce.</div></div>
+          <div class="cr fi"><div class="cr-yr">Year 5</div><div class="cr-t">Five years without architecture is not just <strong>R210,000 in foregone income</strong> — it is also the deposit that R210,000 would have funded. The real cost doubles.</div></div>
+        </div>
+        <div class="cr-note fi">Based on R3,500 conservative average net monthly cash flow per well-structured acquisition.</div>
+      </div>
+      <div class="fi">
+        <div class="delay-right">
+          <div class="dq">"Before you acquire more, understand the gap."</div>
+          <div class="db">Most people wait until the next opportunity appears before thinking about strategy. That sequence — opportunity first, architecture never — is exactly what produces portfolios that grow without closing the gap.</div>
+          <div class="db">The 90-minute session is not about whether to invest. It is about investing with a number in front of you rather than a feeling behind you.</div>
+          <a href="#formCard" class="btn-p" style="margin-top:8px">Calculate My Wealth Gap — Free</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 10. SYLVIA ════════════ -->
+<section class="sec sylvia-sec" id="sylvia">
+  <div class="si">
+    <div class="syl-grid">
+      <div class="fi">
+        <div class="syl-ph"><img src="sylvia-photo.png" alt="Sylvia Milosevic, Founder & Chief Capital Architect, Property Wealth Engineering" style="width:100%;height:100%;object-fit:cover;object-position:78% 18%;display:block"></div>
+      </div>
+      <div>
+        <div class="syl-tag fi">Your Host</div>
+        <div class="syl-name fi">Sylvia Milosevic</div>
+        <div class="syl-role fi">Founder & Chief Capital Architect™ · Property Wealth Engineering™</div>
+        <p class="syl-bio fi">After more than two decades working in property wealth and education, Sylvia repeatedly observed the same pattern: successful professionals were accumulating assets — yet very few could clearly explain what those assets were ultimately supposed to produce.</p>
+        <p class="syl-bio fi">Property Wealth Engineering™ was created to address that gap — helping clients move from property accumulation toward deliberate Private Wealth Architecture™. The PWE™ Wealth Gap Diagnostic is the starting point of that journey.</p>
+        <ul class="syl-creds fi">
+          <li>Founder, Property Wealth Engineering™</li>
+          <li>Author — <em>Winning the Property Game</em></li>
+          <li>Television presenter — <em>The Property Game</em> & <em>All About Property</em></li>
+          <li>Radio — 702, Metro FM, SABC 3, Business Day TV</li>
+          <li>More than two decades in South African property wealth education</li>
+        </ul>
+        <blockquote class="syl-q fi">"Most professionals are not making bad decisions. They are making good decisions without the architecture that connects them to a single destination."</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 11. CLIENT PROOF ════════════ -->
+<section class="sec proof-sec" id="proof">
+  <div class="si">
+    <div class="sec-tag fi">Client Diagnostics</div>
+    <h2 class="sec-h2 fi">What the diagnostic reveals.</h2>
+    <p class="pdisc fi">Representative examples of diagnostic outcomes calculated during the session. Specific details generalised.</p>
+    <div class="proof-grid">
+      <div class="pc fi">
+        <div class="pc-head">Example — Specialist Physician · Age 48 · Johannesburg</div>
+        <div class="pr-rows">
+          <div class="pr-row"><div class="pr-c lbl">Portfolio</div><div class="pr-c bef">2 properties, no documented income target</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Replacement rate</div><div class="pr-c bef">9% of monthly professional income</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Retirement gap</div><div class="pr-c bef">R38,500 per month shortfall</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Years at current rate</div><div class="pr-c bef">55 years to close the gap</div></div>
+          <div class="pr-row"><div class="pr-c lbl">After diagnostic</div><div class="pr-c aft"><strong>Gap visible. Roles identified. Blueprint initiated.</strong></div></div>
+        </div>
+        <div class="pr-note">Equity had been available for years. No deployment framework had existed. The diagnostic made the cost of that inaction calculable.</div>
+      </div>
+      <div class="pc fi">
+        <div class="pc-head">Example — Civil Engineer · Age 52 · Pretoria</div>
+        <div class="pr-rows">
+          <div class="pr-row"><div class="pr-c lbl">Portfolio</div><div class="pr-c bef">4 properties, all bonded, net R18,400/month</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Replacement rate</div><div class="pr-c bef">21% of monthly professional income</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Retirement gap</div><div class="pr-c bef">R41,600 per month shortfall</div></div>
+          <div class="pr-row"><div class="pr-c lbl">Years at current rate</div><div class="pr-c bef">30 years to close the gap</div></div>
+          <div class="pr-row"><div class="pr-c lbl">After diagnostic</div><div class="pr-c aft"><strong>Equity strategy defined. Acquisition sequence mapped.</strong></div></div>
+        </div>
+        <div class="pr-note">Four properties producing 21% replacement. The diagnostic showed more acquisition without a blueprint would not close a 30-year gap in time.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 12. WHY FREE ════════════ -->
+<section class="sec free" id="why-free">
+  <div class="si">
+    <div class="free-grid">
+      <div>
+        <div class="sec-tag fi">Why This Session Is Free</div>
+        <div class="free-q fi">"We believe the first step in building wealth should not be buying another property. It should be understanding where you are."</div>
+        <div class="free-b fi">The 90-minute session gives you that starting point at no cost and with no obligation. The diagnostic, the calculations, the framework: yours to keep regardless of what you choose to do next.</div>
+        <div class="free-b fi" style="margin-top:12px">For those who want deeper support, Sylvia shares the next stage of the PWE™ journey at the close of the session. No pressure. No obligation.</div>
+      </div>
+      <div class="free-box fi">
+        <div class="free-box-t">What you take away — at no cost</div>
+        <ul class="free-pts">
+          <li>Your Income Replacement Rate — calculated with your own numbers</li>
+          <li>Your Retirement Income Gap — a specific rands-per-month figure</li>
+          <li>Your Portfolio Requirement — acquisitions needed and timeline</li>
+          <li>Your Architecture Question — whether current decisions are moving you toward your target</li>
+          <li>The Wealth Gap Framework — a way of thinking about every future capital decision</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 13. FAQ ════════════ -->
+<section class="faq" id="faq">
+  <div class="faq-inner">
+    <div class="sec-tag ctr fi">Before You Register</div>
+    <h2 class="sec-h2 fi" style="text-align:center;max-width:100%;font-size:clamp(26px,3.2vw,40px)">Common questions.</h2>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ════════════ 14. FINAL CTA ════════════ -->
+<section class="fcta" id="register">
+  <div class="fcta-in fi">
+    <h2 class="fcta-h">Before You Buy Another Property,<br>Know the Number.</h2>
+    <p class="fcta-s">90 minutes. Your numbers. Your Wealth Gap. Your next decision with greater clarity than you have had before.</p>
+    <div class="fcta-pills" id="fctaPills"></div>
+    <div class="cta-row">
+      <a href="#formCard" class="btn-p" style="font-size:13px;padding:16px 36px">Calculate My Wealth Gap — Free →</a>
+      <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="fcta-wa" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <div class="fcta-note">No cost. No obligation. Zoom link sent immediately on registration.</div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="fi-inner">
+    <div>
+      <div class="fl">Property Wealth Engineering<span>™</span></div>
+      <div class="ft">Clarity Before Capital. Structure Before Scale.™</div>
+    </div>
+    <div class="flg">The PWE™ free webinar is educational and does not constitute regulated financial, legal or tax advice. © 2026 Property Wealth Engineering™. Sandton, Johannesburg.</div>
+  </div>
+</footer>
+
+<!-- ── STICKY MOBILE BAR ── -->
+<div class="mob-bar" id="mobBar">
+  <div class="mob-bar-inner">
+    <a href="#formCard" class="btn-p">Calculate My Gap — Free</a>
+    <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="wa-btn" target="_blank" rel="noopener" style="border:1px solid rgba(37,211,102,.35);color:var(--wa);background:transparent;display:flex;align-items:center;justify-content:center;padding:12px 14px;font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;gap:6px">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════
+// SESSION DATES — edit this list only.
+// Each entry is one specific live date. Add a new one the same way, in
+// 'YYYY-MM-DDTHH:MM' format (24hr, SAST). Once a date's start time has
+// passed, it drops off the page automatically — nothing else to update.
+// ══════════════════════════════════
+const SESSIONS=[
+  {id:'d0912',start:'2026-09-12T10:30',end:'12:00'},
+  {id:'d0913',start:'2026-09-13T10:30',end:'12:00'},
+  {id:'d0915',start:'2026-09-15T18:30',end:'20:00'},
+  {id:'d0917',start:'2026-09-17T18:30',end:'20:00'},
+  {id:'d0919',start:'2026-09-19T10:30',end:'12:00'},
+  {id:'d0922',start:'2026-09-22T18:30',end:'20:00'},
+  {id:'d0924',start:'2026-09-24T18:30',end:'20:00'},
+  {id:'d0926',start:'2026-09-26T10:30',end:'12:00'},
+  {id:'d0929',start:'2026-09-29T18:30',end:'20:00'}
+];
+
+function upcomingSessions(){
+  const now=new Date();
+  return SESSIONS
+    .map(s=>({...s,date:new Date(s.start)}))
+    .filter(s=>s.date>now)
+    .sort((a,b)=>a.date-b.date);
+}
+
+function sessionLabel(s){
+  const dayDate=s.date.toLocaleDateString('en-ZA',{weekday:'long',day:'numeric',month:'long'});
+  const startTime=s.date.toLocaleTimeString('en-ZA',{hour:'2-digit',minute:'2-digit',hour12:false});
+  return {dayDate,time:`${startTime} – ${s.end}`};
+}
+
+// ══════════════════════════════════
+// RENDER SESSION PICKER
+// ══════════════════════════════════
+function renderSessionPicker(){
+  const wrap=document.getElementById('sessionPicker');
+  const sessions=upcomingSessions();
+  wrap.innerHTML='';
+  sessions.forEach((s,i)=>{
+    const {dayDate,time}=sessionLabel(s);
+    const label=document.createElement('label');
+    label.className='s-opt';
+    label.innerHTML=`
+      <input type="radio" name="sess" value="${s.id}" ${i===0?'checked':''}>
+      <div class="s-btn">
+        <div><div class="s-day">${dayDate}</div><div class="s-time">${time} · 90 min · Zoom</div></div>
+        <div style="text-align:right"><div class="s-avail">Seats available</div><div class="s-radio"></div></div>
+      </div>`;
+    wrap.appendChild(label);
+  });
+  if(sessions.length===0){
+    wrap.innerHTML='<p style="font-size:14px;color:var(--g2)">New dates coming soon — please check back shortly.</p>';
+  }
+}
+renderSessionPicker();
+
+// Populate the final-CTA date pills with the next 3 upcoming sessions
+(function(){
+  const pillWrap=document.getElementById('fctaPills');
+  if(!pillWrap) return;
+  const sessions=upcomingSessions().slice(0,3);
+  pillWrap.innerHTML=sessions.map(s=>{
+    const {time}=sessionLabel(s);
+    const shortDate=s.date.toLocaleDateString('en-ZA',{day:'numeric',month:'short'});
+    return `<div class="pill">${shortDate} · ${time.split(' ')[0]}</div>`;
+  }).join('');
+})();
+
+function getSelectedSession(){
+  const sel=document.querySelector('input[name="sess"]:checked');
+  if(!sel) return null;
+  return upcomingSessions().find(s=>s.id===sel.value);
+}
+
+// ══════════════════════════════════
+// COUNTDOWN TIMER — counts down to the next upcoming session
+// ══════════════════════════════════
+function pad(n){return String(n).padStart(2,'0')}
+
+function tick(){
+  const sessions=upcomingSessions();
+  if(sessions.length===0) return;
+  const next=sessions[0];
+  const {dayDate,time}=sessionLabel(next);
+  const diff=Math.max(0,next.date-new Date());
+  const days=Math.floor(diff/(864e5));
+  const hrs=Math.floor((diff%864e5)/36e5);
+  const mins=Math.floor((diff%36e5)/6e4);
+  const secs=Math.floor((diff%6e4)/1e3);
+
+  // Banner timer
+  document.getElementById('t-d').textContent=pad(days);
+  document.getElementById('t-h').textContent=pad(hrs);
+  document.getElementById('t-m').textContent=pad(mins);
+  document.getElementById('t-s').textContent=pad(secs);
+  document.querySelectorAll('.timer-sess-name').forEach(el=>el.textContent=`${dayDate.split(',')[0]||dayDate} · ${time.split(' ')[0]}`);
+
+  // Mini form timer
+  let ft='';
+  if(days>0) ft=days+'d ';
+  ft+=pad(hrs)+':'+pad(mins)+':'+pad(secs);
+  document.getElementById('ft-count').textContent=ft;
+
+  // Re-render the picker if the leading session just expired
+  if(diff===0) renderSessionPicker();
+}
+tick();
+setInterval(tick,1000);
+
+// ══════════════════════════════════
+// WHATSAPP NUMBER — update session in link
+// ══════════════════════════════════
+// Samuel: replace 27XXXXXXXXXX with actual WhatsApp business number (e.g. 27821234567)
+// The waLink updates to include the selected session
+document.getElementById('sessionPicker').addEventListener('change',()=>{
+  const s=getSelectedSession();
+  if(s){
+    const {dayDate,time}=sessionLabel(s);
+    const msg=encodeURIComponent(`Hi, I'd like to register for the free PWE Wealth Gap Session — ${dayDate}, ${time}`);
+    document.getElementById('waLink').href=`https://wa.me/27XXXXXXXXXX?text=${msg}`;
+  }
+});
+
+// ══════════════════════════════════
+// FORM SUBMIT
+// ══════════════════════════════════
+document.getElementById('regForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const fn=document.getElementById('fn').value.trim();
+  const em=document.getElementById('em').value.trim();
+  const ph=document.getElementById('ph').value.trim();
+  const s=getSelectedSession();
+  if(!fn||!em||!ph){alert('Please fill in your name, email and mobile number.');return;}
+  if(!/\S+@\S+\.\S+/.test(em)){alert('Please enter a valid email address.');return;}
+  if(!s){alert('Please choose a session date.');return;}
+  const {dayDate,time}=sessionLabel(s);
+  document.getElementById('sessConfirm').textContent='Your session: '+dayDate+' · '+time;
+  document.getElementById('formHead').style.display='none';
+  document.getElementById('regForm').style.display='none';
+  document.getElementById('formSuccess').style.display='block';
+  document.getElementById('formCard').scrollIntoView({behavior:'smooth',block:'start'});
+  // TODO: POST to HubSpot/ActiveCampaign
+  // Required: fn, document.getElementById('ln').value, em, ph,
+  //   document.getElementById('props').value, s.id (session date), UTM params from URL
+});
+
+// ══════════════════════════════════
+// FAQ
+// ══════════════════════════════════
+const faqs=[
+  {q:"Is this really free?",a:"Yes, completely. The 90-minute session costs nothing to attend. At the close, Sylvia shares information about the next stage of the PWE™ journey for those who want deeper support — but the session carries no cost and no obligation."},
+  {q:"What do I need to bring?",a:"Bring a pen or open a spreadsheet. You will calculate four personal numbers live: your income replacement rate, your retirement income gap, your portfolio requirement and your architecture question. You need your current net rental income, your monthly professional income, and the monthly passive income you want in retirement."},
+  {q:"How does the session run?",a:"All sessions run on Zoom. You receive a Zoom link and calendar invite by email after registering. Sessions are 90 minutes: approximately 70 minutes of structured content with live calculations, followed by 20 minutes of live Q&A with Sylvia."},
+  {q:"Can I register via WhatsApp?",a:"Yes. Click the WhatsApp button on this page to send a pre-filled message directly to the PWE team. You will receive your session confirmation, Zoom link and reminders via WhatsApp."},
+  {q:"Do I need to own property already?",a:"No. The session is relevant whether you own multiple investment properties or none yet. The diagnostic applies to anyone building toward a retirement income target."},
+  {q:"Can I attend with my partner or a family member?",a:"Yes. Register individually so each person receives their own Zoom link. You are encouraged to attend with a partner or family member — the diagnostic is more useful when done together."},
+  {q:"What happens after the free session?",a:"Sylvia presents the PWE Private Wealth Intensive — a deeper programme that takes you through your full wealth architecture in detail. Webinar attendees receive early access to Intensive dates. There is no obligation and no pressure."},
+  {q:"Is this regulated financial advice?",a:"No. The session is educational in nature. PWE™ does not provide regulated financial, legal or tax advice. Where such advice is required, qualified independent professionals are engaged."},
+];
+const fl=document.getElementById('faqList');
+faqs.forEach(f=>{
+  const el=document.createElement('div');
+  el.className='faq-item fi';
+  el.innerHTML=`<div class="faq-q">${f.q}<span class="faq-ic">+</span></div><div class="faq-ans"><div class="faq-ai">${f.a}</div></div>`;
+  el.querySelector('.faq-q').addEventListener('click',()=>{
+    const o=el.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+    if(!o) el.classList.add('open');
+  });
+  fl.appendChild(el);
+});
+
+// ══════════════════════════════════
+// SCROLL REVEAL
+// ══════════════════════════════════
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);}});
+},{threshold:0.06,rootMargin:'0px 0px -24px 0px'});
+document.querySelectorAll('.fi').forEach(el=>obs.observe(el));
+
+// ══════════════════════════════════
+// MOBILE BAR — show after scrolling past form
+// ══════════════════════════════════
+const mobBar=document.getElementById('mobBar');
+const formCard=document.getElementById('formCard');
+window.addEventListener('scroll',()=>{
+  const fc=formCard.getBoundingClientRect();
+  if(fc.bottom<0){mobBar.style.display='block';}
+  else{mobBar.style.display='none';}
+},{passive:true});
+</script>
+</body>
+</html>
