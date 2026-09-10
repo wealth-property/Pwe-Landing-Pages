@@ -136,6 +136,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .wa-btn{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:13px;background:transparent;border:1px solid rgba(37,211,102,.3);color:var(--wa);font-family:var(--fn);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:all .2s;text-decoration:none}
 .wa-btn:hover{background:rgba(37,211,102,.1);border-color:var(--wa)}
 .wa-btn svg{width:16px;height:16px;flex-shrink:0}
+.wa-divider,.wa-btn,.fcta-wa,.suc-wa{display:none!important}
 
 .f-legal{font-size:10px;color:var(--g3);text-align:center;margin-top:9px;line-height:1.5}
 .f-legal a{color:var(--g2);text-decoration:underline}
@@ -269,6 +270,10 @@ h1.hh em{color:var(--teal);font-style:italic}
 .syl-creds li{font-size:13px;color:var(--g3);display:flex;align-items:center;gap:10px}
 .syl-creds li::before{content:'';width:15px;height:1px;background:var(--teal);flex-shrink:0}
 .syl-q{font-family:var(--fs);font-size:clamp(15px,1.8vw,20px);font-style:italic;color:var(--g1);line-height:1.5;padding-left:18px;border-left:2px solid var(--teal)}
+.diagnostic-images{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:40px}
+.diagnostic-images figure{margin:0;background:var(--d3);overflow:hidden}
+.diagnostic-images img{display:block;width:100%;height:260px;object-fit:cover}
+.diagnostic-images figcaption{padding:10px 12px;font-size:11px;color:var(--g2);letter-spacing:.04em}
 
 /* ── PROOF ── */
 .proof-sec{background:var(--d1)}
@@ -363,6 +368,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   .hero-copy{grid-area:copy;padding-top:0}
   .form-wrap{grid-area:form}
   .ba-grid{grid-template-columns:1fr}
+  .diagnostic-images{grid-template-columns:1fr}
   .ba-mid{display:none}
   .diag-grid,.ag-grid,.who-grid,.not-grid,.proof-grid{grid-template-columns:1fr}
   .h-proof{grid-template-columns:1fr 1fr}
@@ -583,6 +589,10 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
       <div class="dc fi"><div class="dc-bg">02</div><div class="dc-step">Step 02</div><div class="dc-title">Your Retirement Income Gap™</div><div class="dc-body">The monthly shortfall between what your assets currently produce and what you ultimately want them to produce — calculated using your actual retirement income target and your current net passive income.</div><div class="dc-out">A rands-per-month shortfall that is yours alone</div></div>
       <div class="dc fi"><div class="dc-bg">03</div><div class="dc-step">Step 03</div><div class="dc-title">Your Portfolio Requirement</div><div class="dc-body">The number of well-structured cash-flowing acquisitions your portfolio would need to close that gap — and how many years it would take at your current rate of acquisition.</div><div class="dc-out">A specific number of acquisitions and a timeline</div></div>
       <div class="dc fi"><div class="dc-bg">04</div><div class="dc-step">Step 04</div><div class="dc-title">Your Architecture Question</div><div class="dc-body">Whether your current property, equity and capital decisions are actually moving you toward your retirement income objective — or accumulating assets without a defined destination.</div><div class="dc-out">A clear position with the data to support it</div></div>
+    </div>
+    <div class="diagnostic-images fi">
+      <figure><img src="gap.png" alt="Wealth gap diagnostic visual"><figcaption>Measure the gap before making the next capital decision.</figcaption></figure>
+      <figure><img src="wealth.png" alt="Property wealth planning visual"><figcaption>Build a portfolio with a defined destination.</figcaption></figure>
     </div>
   </div>
 </section>
@@ -934,20 +944,6 @@ tick();
 setInterval(tick,1000);
 
 // ══════════════════════════════════
-// WHATSAPP NUMBER — update session in link
-// ══════════════════════════════════
-// Samuel: replace 27XXXXXXXXXX with actual WhatsApp business number (e.g. 27821234567)
-// The waLink updates to include the selected session
-document.getElementById('sessionPicker').addEventListener('change',()=>{
-  const s=getSelectedSession();
-  if(s){
-    const {dayDate,time}=sessionLabel(s);
-    const msg=encodeURIComponent(`Hi, I'd like to register for the free PWE Wealth Gap Session — ${dayDate}, ${time}`);
-    document.getElementById('waLink').href=`https://wa.me/27XXXXXXXXXX?text=${msg}`;
-  }
-});
-
-// ══════════════════════════════════
 // FORM SUBMIT
 // ══════════════════════════════════
 document.getElementById('regForm').addEventListener('submit',function(e){
@@ -977,7 +973,7 @@ const faqs=[
   {q:"Is this really free?",a:"Yes, completely. The 90-minute session costs nothing to attend. At the close, Sylvia shares information about the next stage of the PWE™ journey for those who want deeper support — but the session carries no cost and no obligation."},
   {q:"What do I need to bring?",a:"Bring a pen or open a spreadsheet. You will calculate four personal numbers live: your income replacement rate, your retirement income gap, your portfolio requirement and your architecture question. You need your current net rental income, your monthly professional income, and the monthly passive income you want in retirement."},
   {q:"How does the session run?",a:"All sessions run on Zoom. You receive a Zoom link and calendar invite by email after registering. Sessions are 90 minutes: approximately 70 minutes of structured content with live calculations, followed by 20 minutes of live Q&A with Sylvia."},
-  {q:"Can I register via WhatsApp?",a:"Yes. Click the WhatsApp button on this page to send a pre-filled message directly to the PWE team. You will receive your session confirmation, Zoom link and reminders via WhatsApp."},
+  {q:"How do I receive my session link?",a:"Register using the form on this page. You will receive your Zoom link and calendar invite by email after registering."},
   {q:"Do I need to own property already?",a:"No. The session is relevant whether you own multiple investment properties or none yet. The diagnostic applies to anyone building toward a retirement income target."},
   {q:"Can I attend with my partner or a family member?",a:"Yes. Register individually so each person receives their own Zoom link. You are encouraged to attend with a partner or family member — the diagnostic is more useful when done together."},
   {q:"What happens after the free session?",a:"Sylvia presents the PWE Private Wealth Intensive — a deeper programme that takes you through your full wealth architecture in detail. Webinar attendees receive early access to Intensive dates. There is no obligation and no pressure."},
