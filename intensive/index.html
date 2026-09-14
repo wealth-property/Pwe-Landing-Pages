@@ -67,7 +67,7 @@ a{color:inherit;text-decoration:none}
 .ph-note strong{color:var(--g2);display:block;font-size:11px;margin-bottom:4px;text-transform:uppercase;letter-spacing:.07em}
 .photo-nameplate{position:absolute;bottom:0;left:0;right:0;padding:18px 20px;
   background:linear-gradient(transparent,rgba(15,15,13,.96));border-top:1px solid var(--teal-bd)}
-.pnp-name{font-family:var(--fs);font-weight:600;font-size:19px;color:#FFFFFF;line-height:1.1}
+.pnp-name{font-family:var(--fs);font-weight:600;font-size:19px;color:var(--w);line-height:1.1}
 .pnp-role{font-size:10px;color:var(--teal);font-weight:600;letter-spacing:.07em;margin-top:4px;text-transform:uppercase}
 
 /* invite col */
@@ -78,8 +78,6 @@ a{color:inherit;text-decoration:none}
 .invite-h1{font-family:var(--fs);font-weight:600;font-size:clamp(30px,3.6vw,50px);line-height:1.06;color:var(--w);letter-spacing:-.01em;max-width:18ch}
 .invite-h1 em{color:var(--teal);font-style:italic}
 .invite-outcome{font-size:15px;line-height:1.72;color:var(--g2);max-width:480px;padding:18px 20px;background:var(--teal-dim);border-left:2px solid var(--teal-bd)}
-.invite-objective{display:block;margin-top:9px;color:var(--g1);font-weight:600}
-.hero-takeaway{padding:12px 16px;background:var(--gold-dim);border:1px solid var(--gold-bd);font-family:var(--fs);font-size:16px;font-style:italic;color:var(--g1);line-height:1.4}
 .invite-meta{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--bd)}
 .im-item{padding:12px 18px;border-right:1px solid var(--bd);text-align:center}
 .im-item:last-child{border-right:none}
@@ -92,7 +90,6 @@ a{color:inherit;text-decoration:none}
 .seats-cap{font-size:12px;font-weight:600;color:var(--g2);margin-bottom:12px;letter-spacing:.04em}
 .seats-cap span{color:var(--teal)}
 .seats-grid{display:grid;grid-template-columns:repeat(20,1fr);gap:3px;margin-bottom:8px}
-.seats-grid,.seats-note,.sc-grid,.sc-grid-note{display:none}
 .seat{height:9px;border-radius:2px}
 .seat.tk{background:var(--g3)}
 .seat.av{background:var(--teal);opacity:.6}
@@ -196,11 +193,6 @@ a{color:inherit;text-decoration:none}
 .intensive-images figure{margin:0;background:var(--d3);overflow:hidden}
 .intensive-images img{display:block;width:100%;height:220px;object-fit:cover}
 .intensive-images figcaption{padding:10px 12px;font-size:11px;color:var(--g2);letter-spacing:.04em}
-.architecture-strip{background:var(--d4);padding:28px var(--ph);color:var(--w)}
-.architecture-strip .si{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.architecture-label{font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
-.architecture-flow{font-family:var(--fs);font-size:18px;color:#F7F5F2;line-height:1.4}
-.architecture-flow span{color:var(--teal)}
 
 /* ── 5. TOOLKIT ── */
 .toolkit{background:var(--d1)}
@@ -315,17 +307,10 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
   .diff-grid,.ag-days,.toolkit-grid{grid-template-columns:1fr}
 }
 @media(max-width:720px){
-  .hero-grid{display:flex;flex-direction:column;gap:0}
-  .invite-col{display:contents}
-  .inv-eyebrow{order:1;padding:24px 20px 0}
-  .invite-h1{order:2;padding:0 20px;margin-top:16px}
-  .invite-outcome{order:3;margin:20px 20px 0}
-  .invite-meta{order:4;margin:20px 20px 0}
-  .hero-takeaway{order:5;margin:20px 20px 0}
-  .seats-wrap{order:6;margin:20px 20px 0}
-  .form-card{order:7;margin:20px 20px 24px}
-  .photo-col{order:8;min-height:180px;height:180px}
+  .hero-grid{grid-template-columns:1fr}
+  .photo-col{min-height:220px}
   .photo-placeholder{min-height:220px}
+  .invite-col{border-left:none;border-top:1px solid var(--bd);padding:24px 20px}
   .ev-banner-inner{flex-direction:column;align-items:flex-start;gap:8px}
   .field-row{grid-template-columns:1fr}
   .num-items{grid-template-columns:1fr}
@@ -333,8 +318,8 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
   .intensive-images img{height:220px}
   .foot{flex-direction:column;align-items:flex-start}
   .flg{text-align:left;max-width:100%}
-  .mob-bar{display:block;padding-top:7px;padding-bottom:7px}
-  body{padding-bottom:54px}
+  .mob-bar{display:block}
+  body{padding-bottom:62px}
   .cta-row{flex-direction:column;align-items:center}
 }
 @media(prefers-reduced-motion:reduce){
@@ -397,28 +382,27 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
 
       <h1 class="invite-h1 fi">You Are Invited to the PWE Private Wealth Intensive — <em>As My Guest.</em></h1>
 
-          <div class="invite-outcome fi">Over two focused mornings, we will help you connect your property, equity, borrowing capacity, income and retirement objectives into one clearer wealth direction — and identify what your next financial or property decision actually needs to accomplish.<strong class="invite-objective">The objective: understand where you are, identify the gap, and know what should happen next.</strong></div>
+      <div class="invite-outcome fi">Over two focused mornings, we will help you connect your property, equity, borrowing capacity, income and retirement objectives into one clearer wealth direction — and identify what your next financial or property decision actually needs to accomplish.</div>
 
       <div class="invite-meta fi">
         <div class="im-item"><div class="im-label">Dates</div><div class="im-value">19–20 Sept 2026</div></div>
         <div class="im-item"><div class="im-label">Time</div><div class="im-value">10:00 – 13:30</div></div>
-        <div class="im-item"><div class="im-label">Attendance</div><div class="im-value gold">Complimentary</div></div>
+        <div class="im-item"><div class="im-label">Investment</div><div class="im-value gold">Complimentary</div></div>
       </div>
-
-      <div class="hero-takeaway fi">Attend both days and leave with your <strong>Capital Architecture Snapshot™</strong> and <strong>Retirement Income Mapper™</strong>.</div>
 
       <!-- SEATS VISUAL -->
       <div class="seats-wrap fi">
-        <div class="seats-cap">40 complimentary places available &nbsp;·&nbsp; <span>Registration closes when capacity is reached</span></div>
+        <div class="seats-cap">40 complimentary places &nbsp;·&nbsp; <span>Registration closes when capacity is reached</span></div>
         <div class="seats-grid" id="seatsGrid"></div>
+        <div class="seats-note">Each block represents one place. Dark = claimed. Teal = available.</div>
       </div>
 
       <!-- FORM -->
       <div class="form-card" id="formCard">
         <div id="formInner">
           <div class="form-card-label">Confirm Your Complimentary Place</div>
-          <div class="form-card-title">Confirm Your Place</div>
-          <div class="form-card-note">Submit your details once. Joining information will be emailed after registration.</div>
+          <div class="form-card-title">Register Now</div>
+          <div class="form-card-note">Zoom links for both days sent within minutes.</div>
           <div class="form-card-alert">This is not another property seminar. It is a working session around your own numbers.</div>
           <form id="regForm" novalidate>
             <div class="fields">
@@ -435,13 +419,16 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               Confirm on WhatsApp
             </a>
+            <a href="https://events.zoom.us/ev/AvA24GrlBlOxVla-uAigl6Q9-mVCGCGpuI5x4YsqL1s-Lfv7rPbd~AgxVoLqfwmP_sXrA4RREw2Jb9o_jSoOae9p8R3WJVx3Kuy2y2bpD2MO2Hg" class="zoom-fallback" target="_blank" rel="noopener">
+              Register directly via Zoom
+            </a>
             <div class="f-legal">This invitation is personal and non-transferable. Registering confirms your attendance for both days.</div>
           </form>
         </div>
         <div class="form-success" id="formSuccess">
           <div class="suc-icon"><svg viewBox="0 0 24 24"><polyline points="4,12 9,17 20,7"/></svg></div>
-          <div class="suc-h">Registration received.</div>
-          <div class="suc-p">Your details have been captured. In production, the connected Zoom workflow will email your joining information and calendar invites.</div>
+          <div class="suc-h">Your place is confirmed.</div>
+          <div class="suc-p">Check your email for your Zoom links — one for each day — and calendar invites. We'll send reminders the week before and the morning of each session.</div>
           <div class="suc-event">Saturday 19 September · 10:00 – 13:30<br>Sunday 20 September · 10:00 – 13:30<br>Zoom · Complimentary</div>
         </div>
         <div class="waitlist-card" id="waitlistCard">
@@ -474,11 +461,11 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
       <div class="diff-col leave">
         <div class="diff-col-head l">We want you to leave asking</div>
         <div class="diff-qs">
-          <div class="diff-q leave fi"><strong>Questions you will leave asking</strong>"What am I actually building — and what must it eventually produce?"</div>
-          <div class="diff-q leave fi">"What job should every asset in my portfolio perform?"</div>
-          <div class="diff-q leave fi">"What is the gap between what my portfolio produces today and what I need it to produce?"</div>
-          <div class="diff-q leave fi">"What should happen next — and in what order?"</div>
-          <div class="diff-q leave fi">"Is each future decision moving me toward the architecture — or away from it?"</div>
+          <div class="diff-q leave fi"><strong>A different question</strong>"What am I actually building — and what must it eventually produce?"</div>
+          <div class="diff-q leave fi"><strong>A different question</strong>"What job should every asset in my portfolio perform?"</div>
+          <div class="diff-q leave fi"><strong>A different question</strong>"What is the gap between what my portfolio produces today and what I need it to produce?"</div>
+          <div class="diff-q leave fi"><strong>A different question</strong>"What should happen next — and in what order?"</div>
+          <div class="diff-q leave fi"><strong>A different question</strong>"Is each future decision moving me toward the architecture — or away from it?"</div>
         </div>
       </div>
     </div>
@@ -569,13 +556,6 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<section class="architecture-strip" aria-label="Private Wealth Architecture">
-  <div class="si">
-    <div class="architecture-label">The wider architecture</div>
-    <div class="architecture-flow">Income <span>→</span> Capital <span>→</span> Property <span>→</span> Debt <span>→</span> Equity <span>→</span> Ownership <span>→</span> Retirement <span>→</span> Family &amp; Legacy</div>
-  </div>
-</section>
-
 <!-- ══════════════════════════════════ 5. TOOLKIT ══════════════════════════════════ -->
 <section class="sec toolkit" id="toolkit">
   <div class="si">
@@ -646,10 +626,11 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
           <div class="sc-cap-sub">By invitation — this community only</div>
         </div>
         <div class="sc-grid" id="scGrid"></div>
+        <div class="sc-grid-note">Dark = claimed · Teal = available</div>
         <div class="sc-closes">Registration closes when all 40 places are confirmed.<br>There is no waiting list for this intake.</div>
         <div class="sc-cta">
           <a href="#formCard" class="btn-p" style="width:100%;justify-content:center">Confirm My Place →</a>
-          <div style="margin-top:10px;font-size:11px;color:var(--g3);font-style:italic;font-family:var(--fs)">No payment. Joining information will be emailed after registration.</div>
+          <div style="margin-top:10px;font-size:11px;color:var(--g3);font-style:italic;font-family:var(--fs)">No payment. Zoom links sent immediately.</div>
         </div>
       </div>
     </div>
@@ -783,21 +764,21 @@ setInterval(tickEvent, 1000);
 document.getElementById('regForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const fn = document.getElementById('fn').value.trim();
+  const ln = document.getElementById('ln').value.trim();
   const em = document.getElementById('em').value.trim();
   const ph = document.getElementById('ph').value.trim();
-  if (!fn || !em || !ph) { alert('Please fill in all fields.'); return; }
+  if (!fn || !ln || !em || !ph) { alert('Please fill in all fields.'); return; }
   if (!/\S+@\S+\.\S+/.test(em)) { alert('Please enter a valid email address.'); return; }
-  document.getElementById('formInner').style.display = 'none';
-  document.getElementById('formSuccess').style.display = 'block';
-  document.getElementById('formCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  // TODO: POST to HubSpot/ActiveCampaign and Zoom before launch
-  // Required fields: fn, ln (document.getElementById('ln').value), em, ph
-  // event_name: 'PWE-Intensive-Sept-2026'
-  // seat_type: 'complimentary'
-  // source: 'database-invitation'
-  // UTM params from URL
-  // On success: send two Zoom emails (Day 1 + Day 2) + calendar invites + reminder sequence
-  // Also: increment SEATS_TAKEN in backend + update this page's grid
+  const params = new URLSearchParams(window.location.search);
+  const payload = { firstName: fn, lastName: ln, email: em, mobile: ph, program: 'intensive', sessionId: 'pwe-intensive-sept-2026', sessionDate: '2026-09-19', page: 'intensive', leadSource: 'database-invitation', utm: { source: params.get('utm_source') || '', campaign: params.get('utm_campaign') || '', medium: params.get('utm_medium') || '' } };
+  fetch('/api/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+    .then(function(response) { return response.json().then(function(result) { if (!response.ok || !result.ok) throw new Error(); return result; }); })
+    .then(function() {
+      document.getElementById('formInner').style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+      document.getElementById('formCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    })
+    .catch(function() { alert('We could not complete your registration. Please try again.'); });
 });
 
 // ══════════════════════════════════

@@ -15,8 +15,23 @@ Static landing pages for Property Wealth Engineering (PWE) campaigns.
 │   └── index.html
 ├── webinar/
 │   └── index.html
+├── api/
+│   ├── register.js
+│   └── _lib/
+│       ├── ghl.js
+│       ├── registration.js
+│       ├── zoom.js
+│       └── zoomAuth.js
 └── README.md
 ```
+
+## Registration integration
+
+Both forms POST the same JSON contract to `/api/register`. The endpoint validates the request, upserts a GoHighLevel contact, registers the contact for the configured Zoom webinar(s), and returns a confirmation payload. `INTEGRATION_DRY_RUN=true` keeps local development provider-free.
+
+Required server-side environment variables are listed in `.env.local` as placeholders. Never expose them to browser code or commit real values. The current idempotency store is in-memory for local architecture testing. Production requires a durable store, such as a Supabase table with a unique registration key, before deploying the endpoint.
+
+The GoHighLevel client supports optional comma-separated tags through `GHL_TAGS`. Keep `INTEGRATION_DRY_RUN=true` while validating the request and payload shape. No CRM or Zoom mutation is performed in this mode.
 
 Each page is self-contained and includes its HTML, CSS, and JavaScript. The pages load the Cormorant Garamond and Inter fonts from Google Fonts.
 
