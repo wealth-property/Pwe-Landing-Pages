@@ -22,6 +22,7 @@ function requiredWebinarIds(registration, config) {
     ];
   }
 
+  // Temporary test routing: map the Sep 19/20 lead-page sessions to the Intensive webinars.
   if (registration.sessionId === 'd0919') return [['d0919', config.day1WebinarId]];
   if (registration.sessionId === 'd0920') return [['d0920', config.day2WebinarId]];
   return [[registration.sessionId.toLowerCase(), config.webinarIds[registration.sessionId.toLowerCase()]]];
