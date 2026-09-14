@@ -2,6 +2,14 @@ const { getZoomAccessToken } = require('./zoomAuth');
 
 const ZOOM_API_BASE_URL = 'https://api.zoom.us/v2';
 
+function providerError(status, phase) {
+  const error = new Error('provider_request_failed');
+  error.provider = 'zoom_webinar';
+  error.status = status;
+  error.phase = phase;
+  return error;
+}
+
 function getZoomRegistrationConfig() {
   return {
     day1WebinarId: process.env.ZOOM_DAY_1_WEBINAR_ID,
@@ -34,27 +42,36 @@ function createZoomClient({ fetchImpl = fetch, getAccessToken = getZoomAccessTok
       const config = getZoomRegistrationConfig();
       const targets = requiredWebinarIds(registration, config);
       const missing = targets.filter(([, webinarId]) => !webinarId).map(([name]) => name);
-      if (missing.length > 0) throw new Error(`Missing Zoom webinar ID configuration for: ${missing.join(', ')}`);
+      if (missing.length > 0) {
+        const error = providerError('config', 'configuration');
+        error.message = `Missing Zoom webinar ID configuration for: ${missing.join(', ')}`;
+        throw error;
+      }
 
       const token = await getAccessToken();
       const results = [];
       for (const [name, webinarId] of targets) {
-        const response = await fetchImpl(`${ZOOM_API_BASE_URL}/webinars/${encodeURIComponent(webinarId)}/registrants`, {
-          method: 'POST',
-          headers: {
-            Authorization: `Bearer ${token}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            first_name: registration.firstName,
-            last_name: registration.lastName,
-            email: registration.email,
-            phone: registration.mobile,
-          }),
-        });
+        let response;
+        try {
+          response = await fetchImpl(`${ZOOM_API_BASE_URL}/webinars/${encodeURIComponent(webinarId)}/registrants`, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${token}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              first_name: registration.firstName,
+              last_name: registration.lastName,
+              email: registration.email,
+              phone: registration.mobile,
+            }),
+          });
+        } catch {
+          throw providerError('network', 'registration');
+        }
 
         const payload = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(`Zoom ${name} registration failed (HTTP ${response.status})`);
+        if (!response.ok) throw providerError(response.status, 'registration');
         results.push({ name, joinUrl: payload.join_url || null, registrantId: payload.registrant_id || null });
       }
       return results;

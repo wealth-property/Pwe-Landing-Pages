@@ -1,6 +1,14 @@
 const GHL_API_BASE_URL = 'https://services.leadconnectorhq.com';
 const GHL_API_VERSION = '2021-07-28';
 
+function providerError(provider, status, phase) {
+  const error = new Error('provider_request_failed');
+  error.provider = provider;
+  error.status = status;
+  error.phase = phase;
+  return error;
+}
+
 function getGhlConfig() {
   const required = [
     'GHL_PRIVATE_INTEGRATION_TOKEN',
@@ -34,7 +42,9 @@ function getGhlConfig() {
       );
     }
 
-    throw new Error(messages.join(' '));
+    const error = providerError('ghl', 'config', 'configuration');
+    error.message = messages.join(' ');
+    throw error;
   }
 
   return {
@@ -110,28 +120,33 @@ function getContactData(registrant) {
   return contact;
 }
 
-async function ghlRequest(path, options) {
+async function ghlRequest(path, options, phase = 'request') {
   const config = getGhlConfig();
-  const response = await fetch(`${GHL_API_BASE_URL}${path}`, {
-    ...options,
-    headers: {
-      Authorization: `Bearer ${config.token}`,
-      Version: GHL_API_VERSION,
-      'Content-Type': 'application/json',
-      ...(options.headers || {}),
-    },
-  });
+  let response;
+  try {
+    response = await fetch(`${GHL_API_BASE_URL}${path}`, {
+      ...options,
+      headers: {
+        Authorization: `Bearer ${config.token}`,
+        Version: GHL_API_VERSION,
+        'Content-Type': 'application/json',
+        ...(options.headers || {}),
+      },
+    });
+  } catch {
+    throw providerError('ghl', 'network', phase);
+  }
 
   let payload;
   try {
     payload = await response.json();
   } catch {
-    throw new Error(`GoHighLevel API returned an invalid response (HTTP ${response.status})`);
+    throw providerError('ghl', response.status, phase);
   }
 
   if (!response.ok) {
     const detail = payload.message || payload.error || `HTTP ${response.status}`;
-    throw new Error(`GoHighLevel API failed: ${detail}`);
+    throw providerError('ghl', response.status, phase);
   }
 
   return payload;
@@ -146,7 +161,7 @@ async function findContactByEmail(email) {
       pageLimit: 1,
       filters: [{ field: 'email', operator: 'eq', value: email }],
     }),
-  });
+  }, 'contact_search');
 
   return payload.contacts?.[0] || null;
 }
@@ -159,13 +174,13 @@ async function createOrUpdateGhlContact(registrant) {
     return ghlRequest(`/contacts/${existingContact.id}`, {
       method: 'PUT',
       body: JSON.stringify(contact),
-    });
+    }, 'contact_update');
   }
 
   return ghlRequest('/contacts/', {
     method: 'POST',
     body: JSON.stringify(contact),
-  });
+  }, 'contact_create');
 }
 
 module.exports = { createOrUpdateGhlContact };

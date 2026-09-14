@@ -77,8 +77,16 @@ function createRegistrationService({ ghl, zoom, idempotencyStore = new MemoryIde
         await idempotencyStore.set(key, result);
         logger.info('registration.completed', { key, program: registration.program });
         return result;
-      } catch {
-        logger.error('registration.failed', { key, program: registration.program, error: 'provider_request_failed' });
+      } catch (error) {
+        const provider = error;
+        logger.error('registration.failed', {
+          key,
+          program: registration.program,
+          provider: provider && provider.provider ? provider.provider : 'unknown',
+          status: provider && provider.status ? provider.status : 'unknown',
+          phase: provider && provider.phase ? provider.phase : 'unknown',
+          error: 'provider_request_failed',
+        });
         return { ok: false, status: 502, error: { code: 'REGISTRATION_PROVIDER_ERROR', message: 'Registration could not be completed.' } };
       } finally {
         inFlight.delete(key);
