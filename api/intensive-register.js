@@ -1,6 +1,6 @@
-const { createOrUpdateGhlContact } = require('../../shared/ghl');
-const { createZoomClient } = require('../../shared/zoom');
-const { createRegistrationService, MemoryIdempotencyStore } = require('../../shared/registration');
+const { createOrUpdateGhlContact } = require('./_lib/ghl');
+const { createZoomClient } = require('./_lib/zoom');
+const { createRegistrationService, MemoryIdempotencyStore } = require('./_lib/registration');
 
 const idempotencyStore = new MemoryIdempotencyStore();
 
@@ -47,5 +47,3 @@ async function handler(request, response) {
 }
 
 module.exports = handler;
-
-
