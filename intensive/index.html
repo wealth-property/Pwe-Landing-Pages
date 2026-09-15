@@ -768,7 +768,7 @@ document.getElementById('regForm').addEventListener('submit', function(e) {
   if (!/\S+@\S+\.\S+/.test(em)) { alert('Please enter a valid email address.'); return; }
   const params = new URLSearchParams(window.location.search);
   const payload = { firstName: fn, lastName: ln, email: em, mobile: ph, program: 'intensive', sessionId: 'pwe-intensive-sept-2026', sessionDate: '2026-09-19', page: 'intensive', leadSource: 'database-invitation', utm: { source: params.get('utm_source') || '', campaign: params.get('utm_campaign') || '', medium: params.get('utm_medium') || '' } };
-  fetch('/api/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+  fetch('/intensive/api/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
     .then(function(response) { return response.json().then(function(result) { if (!response.ok || !result.ok) throw new Error(); return result; }); })
     .then(function() {
       document.getElementById('formInner').style.display = 'none';
@@ -823,3 +823,4 @@ window.addEventListener('scroll', () => {
 </script>
 </body>
 </html>
+

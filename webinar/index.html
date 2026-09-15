@@ -961,7 +961,7 @@ document.getElementById('regForm').addEventListener('submit',function(e){
   const {dayDate,time}=sessionLabel(s);
   const params=new URLSearchParams(window.location.search);
   const payload={firstName:fn,lastName:ln,email:em,mobile:ph,program:'webinar',sessionId:s.id,sessionDate:s.start,propertiesOwned:props,page:'webinar',leadSource:'webinar-landing-page',utm:{source:params.get('utm_source')||'',campaign:params.get('utm_campaign')||'',medium:params.get('utm_medium')||''}};
-  fetch('/api/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+  fetch('/webinar/api/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
     .then(function(response){return response.json().then(function(result){if(!response.ok||!result.ok) throw new Error();return result;});})
     .then(function(){
       document.getElementById('sessConfirm').textContent='Your session: '+dayDate+' · '+time;
@@ -1020,3 +1020,4 @@ window.addEventListener('scroll',()=>{
 </script>
 </body>
 </html>
+
