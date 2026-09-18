@@ -8,7 +8,7 @@
    GHL team. That is the only line that needs changing.
    ========================================================================== */
 
-var GHL_WEBHOOK_URL = 'REPLACE_WITH_GHL_WEBHOOK_URL';
+var GHL_WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/Ukte3caBgOBOSNZNJuPe/webhook-trigger/1c305648-7f32-4d66-81d9-92bc631e93de';
 
 var GHL_TIMEOUT_MS = 10000;
 
