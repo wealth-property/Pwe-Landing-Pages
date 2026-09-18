@@ -405,6 +405,7 @@ footer{background:var(--d4);padding:24px var(--ph);border-top:1px solid var(--bd
           <div class="form-card-note">Zoom links for both days sent within minutes.</div>
           <div class="form-card-alert">This is not another property seminar. It is a working session around your own numbers.</div>
           <form id="regForm" novalidate>
+            <input type="text" name="company_url" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
             <div class="fields">
               <div class="field-row">
                 <div class="field"><label for="fn">First Name</label><input type="text" id="fn" autocomplete="given-name" placeholder="Thabo" required></div>
@@ -758,24 +759,37 @@ setInterval(tickEvent, 1000);
 // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // FORM
 // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-document.getElementById('regForm').addEventListener('submit', function(e) {
+document.getElementById('regForm').addEventListener('submit', async function(e) {
   e.preventDefault();
+  const form = e.target;
+  if (isBotSubmission(form)) return;
   const fn = document.getElementById('fn').value.trim();
   const ln = document.getElementById('ln').value.trim();
   const em = document.getElementById('em').value.trim();
   const ph = document.getElementById('ph').value.trim();
   if (!fn || !ln || !em || !ph) { alert('Please fill in all fields.'); return; }
   if (!/\S+@\S+\.\S+/.test(em)) { alert('Please enter a valid email address.'); return; }
-  const params = new URLSearchParams(window.location.search);
-  const payload = { firstName: fn, lastName: ln, email: em, mobile: ph, program: 'intensive', sessionId: 'pwe-intensive-sept-2026', sessionDate: '2026-09-19', page: 'intensive', leadSource: 'database-invitation', utm: { source: params.get('utm_source') || '', campaign: params.get('utm_campaign') || '', medium: params.get('utm_medium') || '' } };
-  fetch('/api/intensive-register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
-    .then(function(response) { return response.json().then(function(result) { if (!response.ok || !result.ok) throw new Error(); return result; }); })
-    .then(function() {
-      document.getElementById('formInner').style.display = 'none';
-      document.getElementById('formSuccess').style.display = 'block';
-      document.getElementById('formCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    })
-    .catch(function() { alert('We could not complete your registration. Please try again.'); });
+
+  const submitBtn = form.querySelector('.f-submit');
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Confirming…';
+
+  const result = await postToGHL({
+    firstName: fn, lastName: ln, email: em, phone: ph,
+    program: 'intensive', sessionId: 'pwe-intensive-sept-2026',
+    sessionDate: '2026-09-19', pageOfOrigin: 'intensive',
+    leadSource: 'database-invitation'
+  });
+
+  if (result.ok) {
+    document.getElementById('formInner').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+    document.getElementById('formCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else {
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Confirm My Complimentary Place →';
+    alert('We could not complete your registration. Please try again, or WhatsApp us and we\'ll register you personally.');
+  }
 });
 
 // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
@@ -821,5 +835,6 @@ window.addEventListener('scroll', () => {
   mobBar.style.display = formCard.getBoundingClientRect().bottom < 0 ? 'block' : 'none';
 }, { passive: true });
 </script>
+<script src="../assets/js/ghl-webhook.js"></script>
 </body>
 </html>
