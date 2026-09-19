@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Free Wealth Gap Session | Property Wealth Engineeringâ„¢</title>
+<title>Free Wealth Gap Session | Property Wealth EngineeringÃ¢â€žÂ¢</title>
 <meta name="description" content="Calculate your personal Wealth Gap and Retirement Income Gap in a free 90-minute live session with Sylvia Milosevic. multiple live dates on Zoom.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +28,13 @@ html{scroll-behavior:smooth}
 body{background:var(--d1);color:var(--g1);font-family:var(--fn);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 
-/* â”€â”€ TOPBAR â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ TOPBAR Ã¢â€â‚¬Ã¢â€â‚¬ */
 .topbar{background:var(--d4);padding:10px var(--ph);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--bd)}
 .tl{font-family:var(--fn);font-weight:700;font-size:13px;letter-spacing:.1em;color:var(--w);text-transform:uppercase}
 .tl span{color:var(--teal)}
 .tr{font-family:var(--fs);font-size:13px;font-style:italic;color:var(--g3)}
 
-/* â”€â”€ COUNTDOWN BANNER â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ COUNTDOWN BANNER Ã¢â€â‚¬Ã¢â€â‚¬ */
 .countdown-banner{background:var(--teal);padding:10px var(--ph)}
 .cb-inner{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
 .cb-label{font-size:12px;font-weight:600;color:rgba(255,255,255,.85);letter-spacing:.04em}
@@ -46,14 +46,14 @@ a{color:inherit;text-decoration:none}
 .t-sep{font-family:var(--fs);font-size:22px;color:rgba(255,255,255,.5);font-weight:700;line-height:1;margin-bottom:14px}
 .cb-sess{font-size:12px;color:rgba(255,255,255,.75);font-style:italic;font-family:var(--fs)}
 
-/* â”€â”€ HERO â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hero{background-color:var(--d1);
   background-image:linear-gradient(rgba(29,158,117,.034) 1px,transparent 1px),linear-gradient(90deg,rgba(29,158,117,.034) 1px,transparent 1px);
   background-size:70px 70px;
   padding:0 var(--ph) 60px}
 .hero-grid{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:300px 1fr 420px;gap:48px;align-items:start}
 
-/* â”€â”€ SYLVIA PHOTO COL â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SYLVIA PHOTO COL Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sylvia-photo-col{position:sticky;top:0;align-self:start}
 .syl-img-wrap{position:relative;height:100vh;max-height:640px;overflow:hidden;
   background:linear-gradient(180deg,var(--d3) 0%,var(--d2) 100%)}
@@ -69,7 +69,7 @@ a{color:inherit;text-decoration:none}
 .syl-np-name{font-family:var(--fs);font-weight:600;font-size:20px;color:var(--w);line-height:1.1}
 .syl-np-role{font-size:11px;color:var(--teal);font-weight:600;letter-spacing:.06em;margin-top:4px;text-transform:uppercase}
 
-/* â”€â”€ HERO COPY COL â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO COPY COL Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hero-copy{padding-top:44px}
 .h-live{display:inline-flex;align-items:center;gap:8px;background:rgba(29,158,117,.1);border:1px solid var(--teal-bd);padding:6px 13px;margin-bottom:24px}
 .h-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2s infinite}
@@ -93,7 +93,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .hpi-n{font-family:var(--fs);font-weight:700;font-size:20px;color:var(--w);line-height:1}
 .hpi-l{font-size:10px;color:var(--g3);margin-top:3px;line-height:1.35}
 
-/* â”€â”€ FORM CARD COL â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FORM CARD COL Ã¢â€â‚¬Ã¢â€â‚¬ */
 .form-wrap{position:sticky;top:16px;padding-top:24px}
 .form-card{background:var(--d2);border:1px solid var(--bd);border-top:3px solid var(--teal);padding:28px 24px}
 
@@ -150,7 +150,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .suc-sess{margin-top:12px;padding:11px 14px;background:var(--teal-dim);border:1px solid var(--teal-bd);font-size:12px;color:var(--teal);font-weight:600}
 .suc-wa{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:12px;background:rgba(37,211,102,.08);border:1px solid rgba(37,211,102,.25);font-size:12px;color:var(--wa);font-weight:600}
 
-/* â”€â”€ SHARED â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SHARED Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sec{padding:76px var(--ph)}
 .si{max-width:var(--mw);margin:0 auto}
 .sec-tag{font-size:11px;font-weight:600;letter-spacing:.17em;color:var(--teal);text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:9px}
@@ -161,7 +161,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .btn-p{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:var(--w);font-size:13px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:15px 32px;border-radius:2px;transition:background .2s,transform .15s}
 .btn-p:hover{background:var(--teal-h);transform:translateY(-2px)}
 
-/* â”€â”€ PROBLEM â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ PROBLEM Ã¢â€â‚¬Ã¢â€â‚¬ */
 .problem{background:var(--d2)}
 .prob-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
 .prob-list{list-style:none;display:flex;flex-direction:column;gap:11px;margin-top:24px}
@@ -173,7 +173,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .gap-name{display:inline-block;margin-top:18px;padding:8px 16px;background:var(--d1);border:1px solid var(--teal-bd);font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--teal);text-transform:uppercase}
 .gap-def{margin-top:14px;font-size:15px;line-height:1.68;color:var(--g1)}
 
-/* â”€â”€ BEFORE / AFTER â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ BEFORE / AFTER Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ba{background:var(--d3)}
 .ba-grid{display:grid;grid-template-columns:1fr 48px 1fr;margin-top:44px;background:var(--bd)}
 .ba-col{background:var(--d2);padding:32px 28px}
@@ -189,7 +189,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .ba-mid{background:var(--d3);display:flex;align-items:center;justify-content:center}
 .ba-arr{font-family:var(--fs);font-size:24px;color:var(--teal)}
 
-/* â”€â”€ DIAGNOSTIC â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ DIAGNOSTIC Ã¢â€â‚¬Ã¢â€â‚¬ */
 .diag{background:var(--d1)}
 .diag-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:48px;background:var(--bd)}
 .dc{background:var(--d2);padding:36px 28px;position:relative;overflow:hidden}
@@ -199,9 +199,9 @@ h1.hh em{color:var(--teal);font-style:italic}
 .dc-title{font-family:var(--fs);font-weight:600;font-size:clamp(18px,2vw,24px);color:var(--w);line-height:1.2;margin-bottom:10px}
 .dc-body{font-size:14px;line-height:1.68;color:var(--g2)}
 .dc-out{margin-top:14px;padding:10px 12px;background:var(--d1);border:1px solid var(--teal-bd);font-size:11px;color:var(--teal);font-weight:600}
-.dc-out::before{content:'Output â†’ ';color:var(--g3)}
+.dc-out::before{content:'Output Ã¢â€ â€™ ';color:var(--g3)}
 
-/* â”€â”€ EXAMPLE â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ EXAMPLE Ã¢â€â‚¬Ã¢â€â‚¬ */
 .example{background:var(--d2)}
 .eg-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;margin-top:40px}
 .eg-calc{background:var(--d1);border:1px solid var(--bd);border-top:3px solid var(--teal);padding:32px 28px}
@@ -219,7 +219,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .eg-shift{font-size:15px;line-height:1.7;color:var(--g2);margin-bottom:14px}
 .eg-new-q{font-family:var(--fs);font-size:clamp(16px,2vw,22px);font-style:italic;color:var(--w);line-height:1.4}
 
-/* â”€â”€ AGENDA â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ AGENDA Ã¢â€â‚¬Ã¢â€â‚¬ */
 .agenda{background:var(--d3)}
 .ag-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:44px;background:var(--bd)}
 .ag-c{background:var(--d1);padding:28px 22px}
@@ -227,7 +227,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .ag-t{font-family:var(--fs);font-weight:600;font-size:17px;color:var(--w);margin-bottom:9px;line-height:1.25}
 .ag-b{font-size:13px;line-height:1.65;color:var(--g2)}
 
-/* â”€â”€ WHO FOR â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ WHO FOR Ã¢â€â‚¬Ã¢â€â‚¬ */
 .who{background:var(--d1)}
 .who-top{font-size:13px;font-weight:500;color:var(--g1);background:rgba(35,35,32,.04);border:1px solid var(--bd);padding:13px 18px;margin:20px 0 24px;text-align:center}
 .who-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--bd)}
@@ -237,7 +237,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .wc-t{font-family:var(--fs);font-weight:600;font-size:16px;color:var(--w);margin-bottom:5px;line-height:1.3}
 .wc-b{font-size:13px;line-height:1.65;color:var(--g2)}
 
-/* â”€â”€ WHO NOT â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ WHO NOT Ã¢â€â‚¬Ã¢â€â‚¬ */
 .not{background:var(--d2)}
 .not-top{font-size:13px;font-weight:500;color:var(--red-txt);background:var(--red-dim);border:1px solid var(--red-bd);padding:13px 18px;margin:20px 0 20px;text-align:center}
 .not-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
@@ -245,7 +245,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .ni-x{color:var(--red-txt);font-size:14px;flex-shrink:0;font-weight:700;margin-top:1px}
 .ni-t{font-size:13px;color:var(--g2);line-height:1.5}
 
-/* â”€â”€ COST OF DELAY â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ COST OF DELAY Ã¢â€â‚¬Ã¢â€â‚¬ */
 .delay{background:var(--d3)}
 .delay-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
 .cost-rows{display:flex;flex-direction:column;gap:8px;margin-top:24px}
@@ -257,7 +257,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .delay-right .dq{font-family:var(--fs);font-size:clamp(19px,2.3vw,26px);font-style:italic;color:var(--w);line-height:1.4;margin-bottom:18px}
 .delay-right .db{font-size:15px;line-height:1.72;color:var(--g2);margin-bottom:14px}
 
-/* â”€â”€ SYLVIA SECTION â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SYLVIA SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sylvia-sec{background:var(--d2)}
 .syl-grid{display:grid;grid-template-columns:240px 1fr;gap:52px;align-items:start}
 .syl-ph{aspect-ratio:3/4;background:var(--d3);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;color:var(--g3);font-size:11px;text-transform:uppercase;letter-spacing:.05em;position:relative;overflow:hidden}
@@ -275,7 +275,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .diagnostic-images img{display:block;width:100%;height:260px;object-fit:cover}
 .diagnostic-images figcaption{padding:10px 12px;font-size:11px;color:var(--g2);letter-spacing:.04em}
 
-/* â”€â”€ PROOF â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ PROOF Ã¢â€â‚¬Ã¢â€â‚¬ */
 .proof-sec{background:var(--d1)}
 .pdisc{font-size:12px;font-style:italic;color:var(--g3);font-family:var(--fs);margin-top:8px}
 .proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:36px;background:var(--bd)}
@@ -291,7 +291,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .pr-c.aft strong{color:var(--teal);font-weight:600}
 .pr-note{margin-top:14px;font-size:12px;color:var(--g3);font-style:italic;line-height:1.5;font-family:var(--fs)}
 
-/* â”€â”€ WHY FREE â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ WHY FREE Ã¢â€â‚¬Ã¢â€â‚¬ */
 .free{background:var(--d3)}
 .free-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
 .free-q{font-family:var(--fs);font-size:clamp(20px,2.6vw,32px);font-style:italic;color:var(--w);line-height:1.35;padding-left:22px;border-left:3px solid var(--teal);margin-bottom:20px}
@@ -300,9 +300,9 @@ h1.hh em{color:var(--teal);font-style:italic}
 .free-box-t{font-family:var(--fs);font-weight:600;font-size:20px;color:var(--w);margin-bottom:16px}
 .free-pts{list-style:none;display:flex;flex-direction:column;gap:11px}
 .free-pts li{font-size:14px;color:var(--g1);display:flex;gap:9px;line-height:1.5}
-.free-pts li::before{content:'â†’';color:var(--teal);flex-shrink:0}
+.free-pts li::before{content:'Ã¢â€ â€™';color:var(--teal);flex-shrink:0}
 
-/* â”€â”€ FAQ â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FAQ Ã¢â€â‚¬Ã¢â€â‚¬ */
 .faq{background:var(--d2);padding:68px var(--ph)}
 .faq-inner{max-width:740px;margin:0 auto}
 .faq-list{border-top:1px solid var(--bd);margin-top:32px}
@@ -315,7 +315,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .faq-item.open .faq-ans{max-height:400px}
 .faq-ai{padding-bottom:20px;font-size:14px;line-height:1.72;color:var(--g2)}
 
-/* â”€â”€ FINAL CTA â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FINAL CTA Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fcta{background:var(--d1);padding:92px var(--ph);text-align:center;
   background-image:linear-gradient(rgba(29,158,117,.034) 1px,transparent 1px),linear-gradient(90deg,rgba(29,158,117,.034) 1px,transparent 1px);
   background-size:70px 70px}
@@ -329,7 +329,7 @@ h1.hh em{color:var(--teal);font-style:italic}
 .fcta-note{margin-top:20px;font-family:var(--fs);font-size:13px;font-style:italic;color:var(--g3)}
 .cta-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px}
 
-/* â”€â”€ FOOTER â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FOOTER Ã¢â€â‚¬Ã¢â€â‚¬ */
 footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd)}
 .fi-inner{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .fl{font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--w)}
@@ -337,18 +337,18 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
 .ft{font-family:var(--fs);font-size:12px;font-style:italic;color:var(--g3)}
 .flg{font-size:11px;color:var(--g3);max-width:420px;line-height:1.5;text-align:right}
 
-/* â”€â”€ STICKY MOBILE BAR â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ STICKY MOBILE BAR Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mob-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
   display:none;background:var(--d4);border-top:1px solid var(--bd);padding:10px var(--ph)}
 .mob-bar-inner{display:flex;gap:8px}
 .mob-bar .btn-p{flex:1;justify-content:center;padding:12px;font-size:12px}
 .mob-bar .wa-btn{flex:0 0 auto;padding:12px 14px;border:1px solid rgba(37,211,102,.3)}
 
-/* â”€â”€ ANIMATIONS â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ ANIMATIONS Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fi{opacity:0;transform:translateY(11px);transition:opacity .5s ease,transform .5s ease}
 .fi.vis{opacity:1;transform:translateY(0)}
 
-/* â”€â”€ RESPONSIVE â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ RESPONSIVE Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media(max-width:1100px){
   .hero-grid{grid-template-columns:1fr 400px;gap:36px}
   .sylvia-photo-col{display:none}
@@ -395,16 +395,16 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
 </head>
 <body>
 
-<!-- â”€â”€ TOPBAR â”€â”€ -->
+<!-- Ã¢â€â‚¬Ã¢â€â‚¬ TOPBAR Ã¢â€â‚¬Ã¢â€â‚¬ -->
 <div class="topbar">
-  <div class="tl">PWE<span>â„¢</span></div>
-  <div class="tr">Clarity Before Capital. Structure Before Scale.â„¢</div>
+  <div class="tl">PWE<span>Ã¢â€žÂ¢</span></div>
+  <div class="tr">Clarity Before Capital. Structure Before Scale.Ã¢â€žÂ¢</div>
 </div>
 
-<!-- â”€â”€ COUNTDOWN BANNER â”€â”€ -->
+<!-- Ã¢â€â‚¬Ã¢â€â‚¬ COUNTDOWN BANNER Ã¢â€â‚¬Ã¢â€â‚¬ -->
 <div class="countdown-banner">
   <div class="cb-inner">
-    <div class="cb-label">ðŸŸ¢ &nbsp;<strong>Next session</strong> â€” <span class="timer-sess-name">Loadingâ€¦</span></div>
+    <div class="cb-label">Ã°Å¸Å¸Â¢ &nbsp;<strong>Next session</strong> Ã¢â‚¬â€ <span class="timer-sess-name">LoadingÃ¢â‚¬Â¦</span></div>
     <div class="timer-wrap">
       <div class="t-block"><div class="t-num" id="t-d">00</div><div class="t-lbl">Days</div></div>
       <div class="t-sep">:</div>
@@ -418,7 +418,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• HERO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â HERO Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="hero">
   <div class="hero-grid">
 
@@ -428,28 +428,28 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
         <img src="sylvia-photo.png" alt="Sylvia Milosevic, Founder & Chief Capital Architect, Property Wealth Engineering">
         <div class="syl-nameplate">
           <div class="syl-np-name">Sylvia Milosevic</div>
-          <div class="syl-np-role">Founder & Chief Capital Architectâ„¢</div>
+          <div class="syl-np-role">Founder & Chief Capital ArchitectÃ¢â€žÂ¢</div>
         </div>
       </div>
     </div>
 
     <!-- HERO COPY -->
     <div class="hero-copy">
-      <div class="h-live fi"><div class="h-dot"></div><span class="h-live-txt">Free Live Webinar � 90 Minutes � Zoom</span></div>
-      <div class="hero-tag fi">Free � No obligation � Live Q&A</div>
+      <div class="h-live fi"><div class="h-dot"></div><span class="h-live-txt">Free Live Webinar Â· 90 Minutes Â· Zoom</span></div>
+      <div class="hero-tag fi">Free Â· No obligation Â· Live Q&A</div>
       <h1 class="hh fi">You May Own Property. But Is It Actually Building <em>Financial Independence?</em></h1>
-      <p class="hero-sub fi">In this free 90-minute live session, calculate the gap between what your current assets produce today and the income you want them to produce in the future â€” and discover what needs to change.</p>
+      <p class="hero-sub fi">In this free 90-minute live session, calculate the gap between what your current assets produce today and the income you want them to produce in the future Ã¢â‚¬â€ and discover what needs to change.</p>
       <p class="hero-for fi">For professionals, executives, business owners and property investors who want clarity before their next capital decision.</p>
       <div class="hero-learns">
-        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Income Replacement Rate</strong> â€” the one number that shows how your portfolio is actually performing right now.</div></div>
-        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Retirement Income Gap</strong> â€” calculated live with your numbers. The rands-per-month your portfolio still needs to produce.</div></div>
-        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>The PWEâ„¢ Wealth Gap Diagnostic</strong> â€” a four-step live calculation that gives you a number, not a feeling.</div></div>
-        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Architecture Question</strong> â€” whether current property, equity and capital decisions are moving you toward your target.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Income Replacement Rate</strong> Ã¢â‚¬â€ the one number that shows how your portfolio is actually performing right now.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Retirement Income Gap</strong> Ã¢â‚¬â€ calculated live with your numbers. The rands-per-month your portfolio still needs to produce.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>The PWEÃ¢â€žÂ¢ Wealth Gap Diagnostic</strong> Ã¢â‚¬â€ a four-step live calculation that gives you a number, not a feeling.</div></div>
+        <div class="hl fi"><div class="hl-ck"><svg viewBox="0 0 12 10"><polyline points="1,5 4,9 11,1"/></svg></div><div class="hl-t"><strong>Your Architecture Question</strong> Ã¢â‚¬â€ whether current property, equity and capital decisions are moving you toward your target.</div></div>
       </div>
       <div class="h-proof fi">
         <div class="hpi"><div class="hpi-n">22+</div><div class="hpi-l">Years in property wealth</div></div>
         <div class="hpi"><div class="hpi-n">Author</div><div class="hpi-l">Winning the Property Game</div></div>
-        <div class="hpi"><div class="hpi-n">TV</div><div class="hpi-l">The Property Game � All About Property</div></div>
+        <div class="hpi"><div class="hpi-n">TV</div><div class="hpi-l">The Property Game Â· All About Property</div></div>
         <div class="hpi"><div class="hpi-n">Free</div><div class="hpi-l">No cost. No obligation.</div></div>
       </div>
     </div>
@@ -460,7 +460,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
         <!-- Mini countdown in form -->
         <div class="form-timer">
           <span class="ft-label">Next session in</span>
-          <span class="ft-count" id="ft-count">â€”</span>
+          <span class="ft-count" id="ft-count">Ã¢â‚¬â€</span>
         </div>
         <div id="formHead">
           <div class="fc-eyebrow">Reserve Your Free Seat</div>
@@ -468,7 +468,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
           <div class="fc-sub">Zoom link sent instantly by email.</div>
           <div class="sess-lbl" style="margin-top:14px">Available sessions</div>
           <div class="sessions" id="sessionPicker">
-            <!-- Populated automatically by JS from the SESSIONS list below. Past dates drop off on their own â€” nothing to edit here by hand. -->
+            <!-- Populated automatically by JS from the SESSIONS list below. Past dates drop off on their own Ã¢â‚¬â€ nothing to edit here by hand. -->
           </div>
         </div>
 
@@ -485,14 +485,14 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
               <label for="props">Properties Currently Owned</label>
               <select id="props">
                 <option value="">Select one</option>
-                <option value="0">None â€” planning my first</option>
+                <option value="0">None Ã¢â‚¬â€ planning my first</option>
                 <option value="1">1 property</option>
-                <option value="2-3">2â€“3 properties</option>
+                <option value="2-3">2Ã¢â‚¬â€œ3 properties</option>
                 <option value="4+">4 or more</option>
               </select>
             </div>
           </div>
-          <button type="submit" class="f-submit">Calculate My Wealth Gap â€” Free â†’</button>
+          <button type="submit" class="f-submit">Calculate My Wealth Gap Ã¢â‚¬â€ Free Ã¢â€ â€™</button>
           <!-- WhatsApp alternative -->
           <div class="wa-divider"><span>or register via</span></div>
           <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="wa-btn" target="_blank" rel="noopener" id="waLink">
@@ -510,9 +510,9 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
           <div class="suc-sess" id="sessConfirm">Session confirmed</div>
           <div class="suc-wa">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Add to WhatsApp reminders â†’ <a href="https://wa.me/27XXXXXXXXXX?text=I%20registered%20for%20the%20PWE%20session%20and%20would%20like%20reminders" style="color:var(--wa);text-decoration:underline" target="_blank">Join reminder list</a>
+            Add to WhatsApp reminders Ã¢â€ â€™ <a href="https://wa.me/27XXXXXXXXXX?text=I%20registered%20for%20the%20PWE%20session%20and%20would%20like%20reminders" style="color:var(--wa);text-decoration:underline" target="_blank">Join reminder list</a>
           </div>
-          <div style="margin-top:10px;font-size:11px;color:var(--g3)">Bring a pen or open spreadsheet â€” you'll calculate your own numbers live.</div>
+          <div style="margin-top:10px;font-size:11px;color:var(--g3)">Bring a pen or open spreadsheet Ã¢â‚¬â€ you'll calculate your own numbers live.</div>
         </div>
       </div>
     </div>
@@ -520,13 +520,13 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 2. PROBLEM â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 2. PROBLEM Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec problem" id="problem">
   <div class="si">
     <div class="prob-grid">
       <div>
         <div class="sec-tag fi">The Hidden Problem</div>
-        <h2 class="sec-h2 fi">You can be financially successful â€” and still be building wealth without a plan.</h2>
+        <h2 class="sec-h2 fi">You can be financially successful Ã¢â‚¬â€ and still be building wealth without a plan.</h2>
         <ul class="prob-list">
           <li class="fi">You earn a strong professional income.</li>
           <li class="fi">You own one or more investment properties.</li>
@@ -538,17 +538,17 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
       </div>
       <div>
         <div class="prob-yet fi">
-          <div class="prob-q">"Yet how much of my current lifestyle will all of this actually replace â€” when I stop working?"</div>
-          <div class="prob-body">Most successful professionals cannot answer that question with a specific number. Not because they have made poor decisions â€” but because each decision was made separately, without one architecture connecting them to a single income destination.</div>
+          <div class="prob-q">"Yet how much of my current lifestyle will all of this actually replace Ã¢â‚¬â€ when I stop working?"</div>
+          <div class="prob-body">Most successful professionals cannot answer that question with a specific number. Not because they have made poor decisions Ã¢â‚¬â€ but because each decision was made separately, without one architecture connecting them to a single income destination.</div>
         </div>
-        <div class="gap-name fi">The Wealth Gapâ„¢</div>
+        <div class="gap-name fi">The Wealth GapÃ¢â€žÂ¢</div>
         <div class="gap-def fi">The Wealth Gap is the difference between the financial future you are building toward and what your current assets are actually positioned to produce. Most people feel it. Very few have calculated it.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 3. BEFORE / AFTER â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 3. BEFORE / AFTER Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec ba" id="before-after">
   <div class="si">
     <div class="sec-tag ctr fi">The Transformation</div>
@@ -564,12 +564,12 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
           <div class="ba-item bef fi">"My advisers work separately. Nobody has given me one complete picture."</div>
         </div>
       </div>
-      <div class="ba-mid"><div class="ba-arr">â†’</div></div>
+      <div class="ba-mid"><div class="ba-arr">Ã¢â€ â€™</div></div>
       <div class="ba-col after">
         <div class="ba-head aft">After the session</div>
         <div class="ba-items">
-          <div class="ba-item aft fi"><strong>You know your Income Replacement Rate</strong> â€” exactly what your portfolio replaces today.</div>
-          <div class="ba-item aft fi"><strong>You know your monthly Wealth Gap</strong> â€” the specific rands-per-month your portfolio still needs to produce.</div>
+          <div class="ba-item aft fi"><strong>You know your Income Replacement Rate</strong> Ã¢â‚¬â€ exactly what your portfolio replaces today.</div>
+          <div class="ba-item aft fi"><strong>You know your monthly Wealth Gap</strong> Ã¢â‚¬â€ the specific rands-per-month your portfolio still needs to produce.</div>
           <div class="ba-item aft fi"><strong>You know how many acquisitions it would take</strong> to close that gap at a realistic pace.</div>
           <div class="ba-item aft fi"><strong>You understand why your next property</strong> must serve a defined objective, not just be an opportunity.</div>
           <div class="ba-item aft fi"><strong>You have a clear starting point</strong> for a coordinated wealth architecture.</div>
@@ -579,17 +579,17 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 4. DIAGNOSTIC â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 4. DIAGNOSTIC Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec diag" id="diagnostic">
   <div class="si">
     <div class="sec-tag fi">Proprietary Methodology</div>
-    <h2 class="sec-h2 fi">The PWEâ„¢ Wealth Gap Diagnostic</h2>
-    <p class="sec-body fi">During the session you work through a four-step live diagnostic with your own numbers. You leave with a specific calculated position â€” not a general understanding of property investment.</p>
+    <h2 class="sec-h2 fi">The PWEÃ¢â€žÂ¢ Wealth Gap Diagnostic</h2>
+    <p class="sec-body fi">During the session you work through a four-step live diagnostic with your own numbers. You leave with a specific calculated position Ã¢â‚¬â€ not a general understanding of property investment.</p>
     <div class="diag-grid">
-      <div class="dc fi"><div class="dc-bg">01</div><div class="dc-step">Step 01</div><div class="dc-title">Your Income Replacement Rateâ„¢</div><div class="dc-body">How much of your current lifestyle your existing investment income could replace today â€” if your salary stopped. This single percentage reveals the real state of your portfolio more honestly than any property valuation.</div><div class="dc-out">A percentage figure specific to your current position</div></div>
-      <div class="dc fi"><div class="dc-bg">02</div><div class="dc-step">Step 02</div><div class="dc-title">Your Retirement Income Gapâ„¢</div><div class="dc-body">The monthly shortfall between what your assets currently produce and what you ultimately want them to produce â€” calculated using your actual retirement income target and your current net passive income.</div><div class="dc-out">A rands-per-month shortfall that is yours alone</div></div>
-      <div class="dc fi"><div class="dc-bg">03</div><div class="dc-step">Step 03</div><div class="dc-title">Your Portfolio Requirement</div><div class="dc-body">The number of well-structured cash-flowing acquisitions your portfolio would need to close that gap â€” and how many years it would take at your current rate of acquisition.</div><div class="dc-out">A specific number of acquisitions and a timeline</div></div>
-      <div class="dc fi"><div class="dc-bg">04</div><div class="dc-step">Step 04</div><div class="dc-title">Your Architecture Question</div><div class="dc-body">Whether your current property, equity and capital decisions are actually moving you toward your retirement income objective â€” or accumulating assets without a defined destination.</div><div class="dc-out">A clear position with the data to support it</div></div>
+      <div class="dc fi"><div class="dc-bg">01</div><div class="dc-step">Step 01</div><div class="dc-title">Your Income Replacement RateÃ¢â€žÂ¢</div><div class="dc-body">How much of your current lifestyle your existing investment income could replace today Ã¢â‚¬â€ if your salary stopped. This single percentage reveals the real state of your portfolio more honestly than any property valuation.</div><div class="dc-out">A percentage figure specific to your current position</div></div>
+      <div class="dc fi"><div class="dc-bg">02</div><div class="dc-step">Step 02</div><div class="dc-title">Your Retirement Income GapÃ¢â€žÂ¢</div><div class="dc-body">The monthly shortfall between what your assets currently produce and what you ultimately want them to produce Ã¢â‚¬â€ calculated using your actual retirement income target and your current net passive income.</div><div class="dc-out">A rands-per-month shortfall that is yours alone</div></div>
+      <div class="dc fi"><div class="dc-bg">03</div><div class="dc-step">Step 03</div><div class="dc-title">Your Portfolio Requirement</div><div class="dc-body">The number of well-structured cash-flowing acquisitions your portfolio would need to close that gap Ã¢â‚¬â€ and how many years it would take at your current rate of acquisition.</div><div class="dc-out">A specific number of acquisitions and a timeline</div></div>
+      <div class="dc fi"><div class="dc-bg">04</div><div class="dc-step">Step 04</div><div class="dc-title">Your Architecture Question</div><div class="dc-body">Whether your current property, equity and capital decisions are actually moving you toward your retirement income objective Ã¢â‚¬â€ or accumulating assets without a defined destination.</div><div class="dc-out">A clear position with the data to support it</div></div>
     </div>
     <div class="diagnostic-images fi">
       <figure><img src="gap.png" alt="Wealth gap diagnostic visual"><figcaption>Measure the gap before making the next capital decision.</figcaption></figure>
@@ -598,14 +598,14 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 5. EXAMPLE â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 5. EXAMPLE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec example" id="example">
   <div class="si">
     <div class="sec-tag fi">A Simple Example</div>
     <h2 class="sec-h2 fi">What the diagnostic looks like in practice.</h2>
     <div class="eg-grid">
       <div class="eg-calc fi">
-        <div class="eg-calc-t">Worked Example â€” Professional, Age 48</div>
+        <div class="eg-calc-t">Worked Example Ã¢â‚¬â€ Professional, Age 48</div>
         <div class="eg-rows">
           <div class="eg-row"><span class="eg-lbl">Monthly professional income</span><span class="eg-val">R90,000</span></div>
           <div class="eg-row"><span class="eg-lbl">Target monthly retirement income</span><span class="eg-val">R70,000</span></div>
@@ -620,29 +620,29 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
       </div>
       <div class="fi">
         <blockquote class="eg-q">"Should I buy another property?"</blockquote>
-        <div class="eg-shift">That question â€” the one most investors start with â€” becomes secondary once you have your diagnostic number.</div>
-        <div class="eg-new-q">"What must my portfolio produce â€” and what specific role must each future asset play in closing a R56,000-per-month gap?"</div>
-        <div style="margin-top:20px;font-size:14px;line-height:1.7;color:var(--g2)">That is the question the Wealth Gap Diagnostic answers. You calculate your own version of this number â€” live â€” in the 90-minute session.</div>
+        <div class="eg-shift">That question Ã¢â‚¬â€ the one most investors start with Ã¢â‚¬â€ becomes secondary once you have your diagnostic number.</div>
+        <div class="eg-new-q">"What must my portfolio produce Ã¢â‚¬â€ and what specific role must each future asset play in closing a R56,000-per-month gap?"</div>
+        <div style="margin-top:20px;font-size:14px;line-height:1.7;color:var(--g2)">That is the question the Wealth Gap Diagnostic answers. You calculate your own version of this number Ã¢â‚¬â€ live Ã¢â‚¬â€ in the 90-minute session.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 6. AGENDA â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 6. AGENDA Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec agenda" id="agenda">
   <div class="si">
     <div class="sec-tag ctr fi">The 90-Minute Session</div>
     <h2 class="sec-h2 fi" style="text-align:center;max-width:100%">Exactly what happens in the room.</h2>
     <div class="ag-grid">
-      <div class="ag-c fi"><div class="ag-min">0â€“20</div><div class="ag-t">The Wealth Gap Framework</div><div class="ag-b">Why intelligent professionals accumulate property without building financial independence. The two maps: how most investors invest versus how wealth is engineered.</div></div>
-      <div class="ag-c fi"><div class="ag-min">20â€“45</div><div class="ag-t">Steps 1 & 2 â€” Income Replacement Rate and Retirement Income Gap</div><div class="ag-b">You calculate both numbers live. Bring your current net rental, your professional income and your retirement income target. Four fields. Two numbers.</div></div>
-      <div class="ag-c fi"><div class="ag-min">45â€“70</div><div class="ag-t">Steps 3 & 4 â€” Portfolio Requirement and Architecture Question</div><div class="ag-b">How many acquisitions your gap requires. How long at your current rate. What a Blueprint-governed approach changes about the trajectory.</div></div>
-      <div class="ag-c fi"><div class="ag-min">70â€“90</div><div class="ag-t">The Next Step + Live Q&A</div><div class="ag-b">What the Private Wealth Intensive covers for those who want to go further. Sylvia takes live questions before close. You leave with your four numbers written down.</div></div>
+      <div class="ag-c fi"><div class="ag-min">0Ã¢â‚¬â€œ20</div><div class="ag-t">The Wealth Gap Framework</div><div class="ag-b">Why intelligent professionals accumulate property without building financial independence. The two maps: how most investors invest versus how wealth is engineered.</div></div>
+      <div class="ag-c fi"><div class="ag-min">20Ã¢â‚¬â€œ45</div><div class="ag-t">Steps 1 & 2 Ã¢â‚¬â€ Income Replacement Rate and Retirement Income Gap</div><div class="ag-b">You calculate both numbers live. Bring your current net rental, your professional income and your retirement income target. Four fields. Two numbers.</div></div>
+      <div class="ag-c fi"><div class="ag-min">45Ã¢â‚¬â€œ70</div><div class="ag-t">Steps 3 & 4 Ã¢â‚¬â€ Portfolio Requirement and Architecture Question</div><div class="ag-b">How many acquisitions your gap requires. How long at your current rate. What a Blueprint-governed approach changes about the trajectory.</div></div>
+      <div class="ag-c fi"><div class="ag-min">70Ã¢â‚¬â€œ90</div><div class="ag-t">The Next Step + Live Q&A</div><div class="ag-b">What the Private Wealth Intensive covers for those who want to go further. Sylvia takes live questions before close. You leave with your four numbers written down.</div></div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 7. WHO FOR â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 7. WHO FOR Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec who" id="who">
   <div class="si">
     <div class="sec-tag fi">Who This Is For</div>
@@ -650,33 +650,33 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
     <div class="who-top fi">Most relevant if at least one of the following describes your situation.</div>
     <div class="who-grid">
       <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M20 7H4a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><div><div class="wc-t">You earn well but cannot state what your portfolio will produce in retirement</div><div class="wc-b">Your salary is strong. Your properties look reasonable. But you have never calculated what percentage of your lifestyle your investments actually replace today.</div></div></div>
-      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div><div><div class="wc-t">You own property but are uncertain whether the portfolio is performing a defined role</div><div class="wc-b">You have made acquisition decisions, but those decisions were made individually â€” not against a single documented income destination.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div><div><div class="wc-t">You own property but are uncertain whether the portfolio is performing a defined role</div><div class="wc-b">You have made acquisition decisions, but those decisions were made individually Ã¢â‚¬â€ not against a single documented income destination.</div></div></div>
       <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></div><div><div class="wc-t">You have equity available but no framework for deciding how to deploy it</div><div class="wc-b">Capital is sitting. Borrowing capacity exists. Without a blueprint connecting those resources to an income target, no deployment feels clearly right.</div></div></div>
-      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div><div class="wc-t">You are considering your next acquisition but want to understand the numbers first</div><div class="wc-b">You want to know whether an acquisition serves an objective inside a wider architecture â€” or whether it is simply another opportunity that appeared.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div><div class="wc-t">You are considering your next acquisition but want to understand the numbers first</div><div class="wc-b">You want to know whether an acquisition serves an objective inside a wider architecture Ã¢â‚¬â€ or whether it is simply another opportunity that appeared.</div></div></div>
       <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div><div class="wc-t">You want your household to understand wealth architecture, not just inherit assets</div><div class="wc-b">You are thinking beyond the next transaction toward how financial decisions connect to a long-term outcome for your family.</div></div></div>
-      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg></div><div><div class="wc-t">You feel behind on retirement and want a number â€” not general reassurance</div><div class="wc-b">You want to calculate the gap precisely and understand what closing it would actually require â€” not be told to stay the course without a destination.</div></div></div>
+      <div class="wc fi"><div class="wc-icon"><svg viewBox="0 0 24 24"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg></div><div><div class="wc-t">You feel behind on retirement and want a number Ã¢â‚¬â€ not general reassurance</div><div class="wc-b">You want to calculate the gap precisely and understand what closing it would actually require Ã¢â‚¬â€ not be told to stay the course without a destination.</div></div></div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 8. WHO NOT â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 8. WHO NOT Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec not" id="not-for">
   <div class="si">
     <div class="sec-tag fi">Equally Important</div>
     <h2 class="sec-h2 fi">This session may not be for you.</h2>
     <div class="not-top fi">We would rather be honest about this than have the wrong person in the room.</div>
     <div class="not-grid">
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You are looking for quick-profit strategies or short-cut approaches to building wealth.</div></div>
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You want property tips without examining your own financial position and numbers.</div></div>
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You are not prepared to consider how your next property decision relates to a longer-term income objective.</div></div>
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You are seeking regulated financial, legal or tax advice. This session is educational in nature.</div></div>
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You are very early in your career with no current investment position and no near-term capacity to build one.</div></div>
-      <div class="ni fi"><div class="ni-x">âœ•</div><div class="ni-t">You are looking for someone to tell you what to buy â€” rather than help you understand what you are building.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You are looking for quick-profit strategies or short-cut approaches to building wealth.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You want property tips without examining your own financial position and numbers.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You are not prepared to consider how your next property decision relates to a longer-term income objective.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You are seeking regulated financial, legal or tax advice. This session is educational in nature.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You are very early in your career with no current investment position and no near-term capacity to build one.</div></div>
+      <div class="ni fi"><div class="ni-x">Ã¢Å“â€¢</div><div class="ni-t">You are looking for someone to tell you what to buy Ã¢â‚¬â€ rather than help you understand what you are building.</div></div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 9. COST OF DELAY â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 9. COST OF DELAY Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec delay" id="delay">
   <div class="si">
     <div class="delay-grid">
@@ -686,23 +686,23 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
         <div class="cost-rows">
           <div class="cr fi"><div class="cr-yr">Year 1</div><div class="cr-t">One year of equity without a deployment decision is one year of <strong>R42,000 in potential passive income</strong> that did not arrive.</div></div>
           <div class="cr fi"><div class="cr-yr">Year 3</div><div class="cr-t">Three years without a blueprint is <strong>R126,000 in cumulative passive income</strong> the portfolio was not positioned to produce.</div></div>
-          <div class="cr fi"><div class="cr-yr">Year 5</div><div class="cr-t">Five years without architecture is not just <strong>R210,000 in foregone income</strong> â€” it is also the deposit that R210,000 would have funded. The real cost doubles.</div></div>
+          <div class="cr fi"><div class="cr-yr">Year 5</div><div class="cr-t">Five years without architecture is not just <strong>R210,000 in foregone income</strong> Ã¢â‚¬â€ it is also the deposit that R210,000 would have funded. The real cost doubles.</div></div>
         </div>
         <div class="cr-note fi">Based on R3,500 conservative average net monthly cash flow per well-structured acquisition.</div>
       </div>
       <div class="fi">
         <div class="delay-right">
           <div class="dq">"Before you acquire more, understand the gap."</div>
-          <div class="db">Most people wait until the next opportunity appears before thinking about strategy. That sequence â€” opportunity first, architecture never â€” is exactly what produces portfolios that grow without closing the gap.</div>
+          <div class="db">Most people wait until the next opportunity appears before thinking about strategy. That sequence Ã¢â‚¬â€ opportunity first, architecture never Ã¢â‚¬â€ is exactly what produces portfolios that grow without closing the gap.</div>
           <div class="db">The 90-minute session is not about whether to invest. It is about investing with a number in front of you rather than a feeling behind you.</div>
-          <a href="#formCard" class="btn-p" style="margin-top:8px">Calculate My Wealth Gap â€” Free</a>
+          <a href="#formCard" class="btn-p" style="margin-top:8px">Calculate My Wealth Gap Ã¢â‚¬â€ Free</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 10. SYLVIA â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 10. SYLVIA Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec sylvia-sec" id="sylvia">
   <div class="si">
     <div class="syl-grid">
@@ -712,14 +712,14 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
       <div>
         <div class="syl-tag fi">Your Host</div>
         <div class="syl-name fi">Sylvia Milosevic</div>
-        <div class="syl-role fi">Founder & Chief Capital Architectâ„¢ � Property Wealth Engineeringâ„¢</div>
-        <p class="syl-bio fi">After more than two decades working in property wealth and education, Sylvia repeatedly observed the same pattern: successful professionals were accumulating assets â€” yet very few could clearly explain what those assets were ultimately supposed to produce.</p>
-        <p class="syl-bio fi">Property Wealth Engineeringâ„¢ was created to address that gap â€” helping clients move from property accumulation toward deliberate Private Wealth Architectureâ„¢. The PWEâ„¢ Wealth Gap Diagnostic is the starting point of that journey.</p>
+        <div class="syl-role fi">Founder & Chief Capital ArchitectÃ¢â€žÂ¢ Â· Property Wealth EngineeringÃ¢â€žÂ¢</div>
+        <p class="syl-bio fi">After more than two decades working in property wealth and education, Sylvia repeatedly observed the same pattern: successful professionals were accumulating assets Ã¢â‚¬â€ yet very few could clearly explain what those assets were ultimately supposed to produce.</p>
+        <p class="syl-bio fi">Property Wealth EngineeringÃ¢â€žÂ¢ was created to address that gap Ã¢â‚¬â€ helping clients move from property accumulation toward deliberate Private Wealth ArchitectureÃ¢â€žÂ¢. The PWEÃ¢â€žÂ¢ Wealth Gap Diagnostic is the starting point of that journey.</p>
         <ul class="syl-creds fi">
-          <li>Founder, Property Wealth Engineeringâ„¢</li>
-          <li>Author â€” <em>Winning the Property Game</em></li>
-          <li>Television presenter â€” <em>The Property Game</em> & <em>All About Property</em></li>
-          <li>Radio â€” 702, Metro FM, SABC 3, Business Day TV</li>
+          <li>Founder, Property Wealth EngineeringÃ¢â€žÂ¢</li>
+          <li>Author Ã¢â‚¬â€ <em>Winning the Property Game</em></li>
+          <li>Television presenter Ã¢â‚¬â€ <em>The Property Game</em> & <em>All About Property</em></li>
+          <li>Radio Ã¢â‚¬â€ 702, Metro FM, SABC 3, Business Day TV</li>
           <li>More than two decades in South African property wealth education</li>
         </ul>
         <blockquote class="syl-q fi">"Most professionals are not making bad decisions. They are making good decisions without the architecture that connects them to a single destination."</blockquote>
@@ -728,7 +728,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 11. CLIENT PROOF â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 11. CLIENT PROOF Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec proof-sec" id="proof">
   <div class="si">
     <div class="sec-tag fi">Client Diagnostics</div>
@@ -736,7 +736,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
     <p class="pdisc fi">Representative examples of diagnostic outcomes calculated during the session. Specific details generalised.</p>
     <div class="proof-grid">
       <div class="pc fi">
-        <div class="pc-head">Example â€” Specialist Physician � Age 48 � Johannesburg</div>
+        <div class="pc-head">Example Ã¢â‚¬â€ Specialist Physician Â· Age 48 Â· Johannesburg</div>
         <div class="pr-rows">
           <div class="pr-row"><div class="pr-c lbl">Portfolio</div><div class="pr-c bef">2 properties, no documented income target</div></div>
           <div class="pr-row"><div class="pr-c lbl">Replacement rate</div><div class="pr-c bef">9% of monthly professional income</div></div>
@@ -747,7 +747,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
         <div class="pr-note">Equity had been available for years. No deployment framework had existed. The diagnostic made the cost of that inaction calculable.</div>
       </div>
       <div class="pc fi">
-        <div class="pc-head">Example â€” Civil Engineer � Age 52 � Pretoria</div>
+        <div class="pc-head">Example Ã¢â‚¬â€ Civil Engineer Â· Age 52 Â· Pretoria</div>
         <div class="pr-rows">
           <div class="pr-row"><div class="pr-c lbl">Portfolio</div><div class="pr-c bef">4 properties, all bonded, net R18,400/month</div></div>
           <div class="pr-row"><div class="pr-c lbl">Replacement rate</div><div class="pr-c bef">21% of monthly professional income</div></div>
@@ -761,7 +761,7 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 12. WHY FREE â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 12. WHY FREE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="sec free" id="why-free">
   <div class="si">
     <div class="free-grid">
@@ -769,23 +769,23 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
         <div class="sec-tag fi">Why This Session Is Free</div>
         <div class="free-q fi">"We believe the first step in building wealth should not be buying another property. It should be understanding where you are."</div>
         <div class="free-b fi">The 90-minute session gives you that starting point at no cost and with no obligation. The diagnostic, the calculations, the framework: yours to keep regardless of what you choose to do next.</div>
-        <div class="free-b fi" style="margin-top:12px">For those who want deeper support, Sylvia shares the next stage of the PWEâ„¢ journey at the close of the session. No pressure. No obligation.</div>
+        <div class="free-b fi" style="margin-top:12px">For those who want deeper support, Sylvia shares the next stage of the PWEÃ¢â€žÂ¢ journey at the close of the session. No pressure. No obligation.</div>
       </div>
       <div class="free-box fi">
-        <div class="free-box-t">What you take away â€” at no cost</div>
+        <div class="free-box-t">What you take away Ã¢â‚¬â€ at no cost</div>
         <ul class="free-pts">
-          <li>Your Income Replacement Rate â€” calculated with your own numbers</li>
-          <li>Your Retirement Income Gap â€” a specific rands-per-month figure</li>
-          <li>Your Portfolio Requirement â€” acquisitions needed and timeline</li>
-          <li>Your Architecture Question â€” whether current decisions are moving you toward your target</li>
-          <li>The Wealth Gap Framework â€” a way of thinking about every future capital decision</li>
+          <li>Your Income Replacement Rate Ã¢â‚¬â€ calculated with your own numbers</li>
+          <li>Your Retirement Income Gap Ã¢â‚¬â€ a specific rands-per-month figure</li>
+          <li>Your Portfolio Requirement Ã¢â‚¬â€ acquisitions needed and timeline</li>
+          <li>Your Architecture Question Ã¢â‚¬â€ whether current decisions are moving you toward your target</li>
+          <li>The Wealth Gap Framework Ã¢â‚¬â€ a way of thinking about every future capital decision</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 13. FAQ â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 13. FAQ Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="faq" id="faq">
   <div class="faq-inner">
     <div class="sec-tag ctr fi">Before You Register</div>
@@ -794,14 +794,14 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â• 14. FINAL CTA â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 14. FINAL CTA Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
 <section class="fcta" id="register">
   <div class="fcta-in fi">
     <h2 class="fcta-h">Before You Buy Another Property,<br>Know the Number.</h2>
     <p class="fcta-s">90 minutes. Your numbers. Your Wealth Gap. Your next decision with greater clarity than you have had before.</p>
     <div class="fcta-pills" id="fctaPills"></div>
     <div class="cta-row">
-      <a href="#formCard" class="btn-p" style="font-size:13px;padding:16px 36px">Calculate My Wealth Gap â€” Free â†’</a>
+      <a href="#formCard" class="btn-p" style="font-size:13px;padding:16px 36px">Calculate My Wealth Gap Ã¢â‚¬â€ Free Ã¢â€ â€™</a>
       <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="fcta-wa" target="_blank" rel="noopener">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         WhatsApp
@@ -811,21 +811,21 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
   </div>
 </section>
 
-<!-- â”€â”€ FOOTER â”€â”€ -->
+<!-- Ã¢â€â‚¬Ã¢â€â‚¬ FOOTER Ã¢â€â‚¬Ã¢â€â‚¬ -->
 <footer>
   <div class="fi-inner">
     <div>
-      <div class="fl">Property Wealth Engineering<span>â„¢</span></div>
-      <div class="ft">Clarity Before Capital. Structure Before Scale.â„¢</div>
+      <div class="fl">Property Wealth Engineering<span>Ã¢â€žÂ¢</span></div>
+      <div class="ft">Clarity Before Capital. Structure Before Scale.Ã¢â€žÂ¢</div>
     </div>
-    <div class="flg">The PWEâ„¢ free webinar is educational and does not constitute regulated financial, legal or tax advice. Â© 2026 Property Wealth Engineeringâ„¢. Sandton, Johannesburg.</div>
+    <div class="flg">The PWEÃ¢â€žÂ¢ free webinar is educational and does not constitute regulated financial, legal or tax advice. Ã‚Â© 2026 Property Wealth EngineeringÃ¢â€žÂ¢. Sandton, Johannesburg.</div>
   </div>
 </footer>
 
-<!-- â”€â”€ STICKY MOBILE BAR â”€â”€ -->
+<!-- Ã¢â€â‚¬Ã¢â€â‚¬ STICKY MOBILE BAR Ã¢â€â‚¬Ã¢â€â‚¬ -->
 <div class="mob-bar" id="mobBar">
   <div class="mob-bar-inner">
-    <a href="#formCard" class="btn-p">Calculate My Gap â€” Free</a>
+    <a href="#formCard" class="btn-p">Calculate My Gap Ã¢â‚¬â€ Free</a>
     <a href="https://wa.me/27XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20register%20for%20the%20free%20PWE%20Wealth%20Gap%20Session" class="wa-btn" target="_blank" rel="noopener" style="border:1px solid rgba(37,211,102,.35);color:var(--wa);background:transparent;display:flex;align-items:center;justify-content:center;padding:12px 14px;font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;gap:6px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       WhatsApp
@@ -834,12 +834,12 @@ footer{background:var(--d4);padding:26px var(--ph);border-top:1px solid var(--bd
 </div>
 
 <script>
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-// SESSION DATES â€” edit this list only.
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// SESSION DATES Ã¢â‚¬â€ edit this list only.
 // Each entry is one specific live date. Add a new one the same way, in
 // 'YYYY-MM-DDTHH:MM' format (24hr, SAST). Once a date's start time has
-// passed, it drops off the page automatically â€” nothing else to update.
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// passed, it drops off the page automatically Ã¢â‚¬â€ nothing else to update.
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 const SESSIONS=[
   {id:'d0912',start:'2026-09-12T10:30',end:'12:00'},
   {id:'d0913',start:'2026-09-13T10:30',end:'12:00'},
@@ -864,12 +864,12 @@ function upcomingSessions(){
 function sessionLabel(s){
   const dayDate=s.date.toLocaleDateString('en-ZA',{weekday:'long',day:'numeric',month:'long'});
   const startTime=s.date.toLocaleTimeString('en-ZA',{hour:'2-digit',minute:'2-digit',hour12:false});
-  return {dayDate,time:`${startTime} â€“ ${s.end}`};
+  return {dayDate,time:`${startTime} Ã¢â‚¬â€œ ${s.end}`};
 }
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 // RENDER SESSION PICKER
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 function renderSessionPicker(){
   const wrap=document.getElementById('sessionPicker');
   const sessions=upcomingSessions();
@@ -881,13 +881,13 @@ function renderSessionPicker(){
     label.innerHTML=`
       <input type="radio" name="sess" value="${s.id}" ${i===0?'checked':''}>
       <div class="s-btn">
-        <div><div class="s-day">${dayDate}</div><div class="s-time">${time} � 90 min � Zoom</div></div>
+        <div><div class="s-day">${dayDate}</div><div class="s-time">${time} Â· 90 min Â· Zoom</div></div>
         <div style="text-align:right"><div class="s-avail">Seats available</div><div class="s-radio"></div></div>
       </div>`;
     wrap.appendChild(label);
   });
   if(sessions.length===0){
-    wrap.innerHTML='<p style="font-size:14px;color:var(--g2)">New dates coming soon â€” please check back shortly.</p>';
+    wrap.innerHTML='<p style="font-size:14px;color:var(--g2)">New dates coming soon Ã¢â‚¬â€ please check back shortly.</p>';
   }
 }
 renderSessionPicker();
@@ -900,7 +900,7 @@ renderSessionPicker();
   pillWrap.innerHTML=sessions.map(s=>{
     const {time}=sessionLabel(s);
     const shortDate=s.date.toLocaleDateString('en-ZA',{day:'numeric',month:'short'});
-    return `<div class="pill">${shortDate} � ${time.split(' ')[0]}</div>`;
+    return `<div class="pill">${shortDate} Â· ${time.split(' ')[0]}</div>`;
   }).join('');
 })();
 
@@ -910,9 +910,9 @@ function getSelectedSession(){
   return upcomingSessions().find(s=>s.id===sel.value);
 }
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-// COUNTDOWN TIMER â€” counts down to the next upcoming session
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// COUNTDOWN TIMER Ã¢â‚¬â€ counts down to the next upcoming session
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 function pad(n){return String(n).padStart(2,'0')}
 
 function tick(){
@@ -931,7 +931,7 @@ function tick(){
   document.getElementById('t-h').textContent=pad(hrs);
   document.getElementById('t-m').textContent=pad(mins);
   document.getElementById('t-s').textContent=pad(secs);
-  document.querySelectorAll('.timer-sess-name').forEach(el=>el.textContent=`${dayDate.split(',')[0]||dayDate} � ${time.split(' ')[0]}`);
+  document.querySelectorAll('.timer-sess-name').forEach(el=>el.textContent=`${dayDate.split(',')[0]||dayDate} Â· ${time.split(' ')[0]}`);
 
   // Mini form timer
   let ft='';
@@ -945,9 +945,9 @@ function tick(){
 tick();
 setInterval(tick,1000);
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 // FORM SUBMIT
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 document.getElementById('regForm').addEventListener('submit', async function(e){
   e.preventDefault();
   const form = e.target;
@@ -965,7 +965,7 @@ document.getElementById('regForm').addEventListener('submit', async function(e){
 
   const submitBtn = form.querySelector('.f-submit');
   submitBtn.disabled = true;
-  submitBtn.textContent = 'Registering…';
+  submitBtn.textContent = 'Registeringâ€¦';
 
   const result = await postToGHL({
     firstName: fn, lastName: ln, email: em, phone: ph,
@@ -975,30 +975,30 @@ document.getElementById('regForm').addEventListener('submit', async function(e){
   });
 
   if (result.ok) {
-    document.getElementById('sessConfirm').textContent='Your session: '+dayDate+' � '+time;
+    document.getElementById('sessConfirm').textContent='Your session: '+dayDate+' Â· '+time;
     document.getElementById('formHead').style.display='none';
     document.getElementById('regForm').style.display='none';
     document.getElementById('formSuccess').style.display='block';
     document.getElementById('formCard').scrollIntoView({behavior:'smooth',block:'start'});
   } else {
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Calculate My Wealth Gap — Free →';
+    submitBtn.textContent = 'Calculate My Wealth Gap â€” Free â†’';
     alert('We could not complete your registration. Please try again, or WhatsApp us and we\'ll register you personally.');
   }
 });
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 // FAQ
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 const faqs=[
-  {q:"Is this really free?",a:"Yes, completely. The 90-minute session costs nothing to attend. At the close, Sylvia shares information about the next stage of the PWEâ„¢ journey for those who want deeper support â€” but the session carries no cost and no obligation."},
+  {q:"Is this really free?",a:"Yes, completely. The 90-minute session costs nothing to attend. At the close, Sylvia shares information about the next stage of the PWEÃ¢â€žÂ¢ journey for those who want deeper support Ã¢â‚¬â€ but the session carries no cost and no obligation."},
   {q:"What do I need to bring?",a:"Bring a pen or open a spreadsheet. You will calculate four personal numbers live: your income replacement rate, your retirement income gap, your portfolio requirement and your architecture question. You need your current net rental income, your monthly professional income, and the monthly passive income you want in retirement."},
   {q:"How does the session run?",a:"All sessions run on Zoom. You receive a Zoom link and calendar invite by email after registering. Sessions are 90 minutes: approximately 70 minutes of structured content with live calculations, followed by 20 minutes of live Q&A with Sylvia."},
   {q:"How do I receive my session link?",a:"Register using the form on this page. You will receive your Zoom link and calendar invite by email after registering."},
   {q:"Do I need to own property already?",a:"No. The session is relevant whether you own multiple investment properties or none yet. The diagnostic applies to anyone building toward a retirement income target."},
-  {q:"Can I attend with my partner or a family member?",a:"Yes. Register individually so each person receives their own Zoom link. You are encouraged to attend with a partner or family member â€” the diagnostic is more useful when done together."},
-  {q:"What happens after the free session?",a:"Sylvia presents the PWE Private Wealth Intensive â€” a deeper programme that takes you through your full wealth architecture in detail. Webinar attendees receive early access to Intensive dates. There is no obligation and no pressure."},
-  {q:"Is this regulated financial advice?",a:"No. The session is educational in nature. PWEâ„¢ does not provide regulated financial, legal or tax advice. Where such advice is required, qualified independent professionals are engaged."},
+  {q:"Can I attend with my partner or a family member?",a:"Yes. Register individually so each person receives their own Zoom link. You are encouraged to attend with a partner or family member Ã¢â‚¬â€ the diagnostic is more useful when done together."},
+  {q:"What happens after the free session?",a:"Sylvia presents the PWE Private Wealth Intensive Ã¢â‚¬â€ a deeper programme that takes you through your full wealth architecture in detail. Webinar attendees receive early access to Intensive dates. There is no obligation and no pressure."},
+  {q:"Is this regulated financial advice?",a:"No. The session is educational in nature. PWEÃ¢â€žÂ¢ does not provide regulated financial, legal or tax advice. Where such advice is required, qualified independent professionals are engaged."},
 ];
 const fl=document.getElementById('faqList');
 faqs.forEach(f=>{
@@ -1013,17 +1013,17 @@ faqs.forEach(f=>{
   fl.appendChild(el);
 });
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 // SCROLL REVEAL
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 const obs=new IntersectionObserver(entries=>{
   entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);}});
 },{threshold:0.06,rootMargin:'0px 0px -24px 0px'});
 document.querySelectorAll('.fi').forEach(el=>obs.observe(el));
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-// MOBILE BAR â€” show after scrolling past form
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// MOBILE BAR Ã¢â‚¬â€ show after scrolling past form
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 const mobBar=document.getElementById('mobBar');
 const formCard=document.getElementById('formCard');
 window.addEventListener('scroll',()=>{
@@ -1032,8 +1032,7 @@ window.addEventListener('scroll',()=>{
   else{mobBar.style.display='none';}
 },{passive:true});
 </script>
-<script src="assets/js/ghl-webhook.js"></script>
+<script src="../assets/js/ghl-webhook.js"></script>
 </body>
 </html>
-
 
